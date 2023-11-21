@@ -1,0 +1,158 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD DOTNET WMI
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD DOTNET WMI
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD DOTNET WMI
+    internal_properties : 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
+    configuration_id : 8741998759840844919
+    type : 1
+    generation_directory : .\Exe
+    generation_name : WD DOTNET WMI.exe
+    version :
+     major_version : 22
+     minor_version : 37
+     internal_generation_version : 3
+     autoincrement_version : false
+    icon_filename : .\VST18020-32-5.ico
+    language : 2
+    telemetry :
+     status : disabled
+ elements :
+  identifier : 0x4acda5b200170473
+  elements :
+   -
+     name : pWMI
+     identifier : 0x4210893b0003f206
+     internal_properties : CAAAAAgAAADfuzfr2IWtvgmSLq5uL8Dmz64G7llbitqLfWYifmSuQrIifBAHOUAhZtDKNv7yjgLKSg==
+     physical_name : .\pWMI.wdg
+     type : 7
+   -
+     name : WIN_Simple
+     identifier : 0x420cbfdc0000e39a
+     internal_properties : CAAAAAgAAAAAfnikA3gwa3TNHb0dANX7FFGTS+zqwsyKFEa5Jc1P2dfLkQsYKDEQEQv1w0O9RbsFDQ==
+     physical_name : .\WIN_Simple.wdw
+     type : 2
+   -
+     name : WIN_Content
+     identifier : 0x420b956300002c43
+     internal_properties : CAAAAAgAAAC0kpyYJxwUFyBJiYk5LjXb+LmnvwR5flxKRBeGh7tZ58Excyn8DB18jbchn2eZYVehoQ==
+     physical_name : .\WIN_Content.wdw
+     type : 2
+   -
+     name : WIN_Main
+     identifier : 0x421084540001cce6
+     internal_properties : CAAAAAgAAAB10V1BfttTDNtQ4Ows+5IkPXh0pCtdvuNTOxqq6ijixgr2RMhR9wJjpJ4Y4KBQKJhg4A==
+     physical_name : .\WIN_Main.wdw
+     type : 2
+   -
+     name : WIN_Advanced
+     identifier : 0x420a3fd90001b671
+     internal_properties : CAAAAAgAAAC2nJ6CIR4WGSZ7J1trND85KovhuRY6kKCy0gh3ATHbPZ8HWSMKPksqf7kjnWWbZ1mjow==
+     physical_name : .\WIN_Advanced.wdw
+     type : 2
+   -
+     name : TPLC_Connection
+     identifier : 0x460c13e9006b4d09
+     internal_properties : CAAAAAgAAABj31tPfCmBmqfRelAyeI/xC3pSWonzkpVOa32e/hhyZlauuQRkpDWOBDymEpJOKp5m7g==
+     physical_name : .\TPLC_Connection.wdt
+     type : 20
+   -
+     name : TEST_Main
+     identifier : 0x497ef39d000054ab
+     internal_properties : CAAAAAgAAADDvztvXAkhOoUeqiqajkxy/7wK0u7XWKWKlCPQIue3Qbs1DY+brbyd4lxGsnJuCv7GTg==
+     physical_name : .\TEST_Main.wxt
+     type : 17
+   -
+     name : RPT_Summary
+     identifier : 0x42107d760000f8db
+     internal_properties : CAAAAAgAAACyiOo+DXoybUrPG78PVS8pOn15uRhSjOlTW9Oi7Dbewgb0SDTmGi8OEw33wUG/uy2Xnw==
+     physical_name : .\RPT_Summary.wde
+     type : 3
+  other_elements :
+   -
+     physical_name : .\IMG_INHERITANCE.png
+   -
+     physical_name : .\IMG_LOCAL.png
+   -
+     physical_name : .\IMG_SYSTEM.png
+   -
+     physical_name : .\Description.rtf
+   -
+     physical_name : .\Description.gif
+  net_assemblies :
+   -
+     name : System.Management
+     internal_properties : CAAAAAgAAAAyTlCTdBme2sRHCGaIXE3x9C7MGISwdLb4VA==
+     description : "System.Management, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+     physical_name : System.Management.dll
+   -
+     name : System
+     internal_properties : CAAAAAgAAAAyTlCTdBme2sRHCGaIXE3x9C7MGISwdLb4VA==
+     description : "System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+     physical_name : System.dll
+   -
+     name : mscorlib
+     internal_properties : CAAAAAgAAAAyTlCTdBme2sRHCGaIXE3x9C7MGISwdLb4VA==
+     description : "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+     physical_name : mscorlib.dll
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ languages :
+  - en-GB
+ code_elements :
+  internal_properties : CAAAAAgAAADPZ9iDTMal3H4r9r1f1Eu12WohrpP3H63KJswX5h6CEolQ8VkTO7lL61UoFetyRYkfh54dwthLKcUbekq0QbMYqJMBfC9jxA==
+  type_code : 0
+  p_codes :
+   -
+     code : |1-
+      
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD DOTNET WMI
+     identifier : 0x4acda5b2001f053e
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : IMG_INHERITANCE.PNG
+     index : 0
+   -
+     text :
+      en-GB : IMG_LOCAL.PNG
+     index : 1
+   -
+     text :
+      en-GB : IMG_SYSTEM.PNG
+     index : 2
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

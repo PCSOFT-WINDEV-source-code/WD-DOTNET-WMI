@@ -1,0 +1,1054 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Simple
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Simple
+ identifier : 0x286e62be0ac5ace1
+ internal_properties : CAAAAAgAAACCMfUrQ22brk9ipRO9gj3TRBJjnHF7+wVugqFeY8fpR798fARY52fZBKswnpJfDo5QS587VyvvD1sWE4km5/wOoPhKOJzf7118Ai9VUohMGpOR0aHq886SnNxe0yD/FjEGlWn6yWNUAujTB1B4geJ/zvrXdl4yYZyn8M9bZr2J2YeknnonHmn/4Nu12nVpvIv+yzn8yxYi8D8cM19IN0dTRy2+wNSpviYzvb2xJz8UzTztSrM5/BvlA3P3+qcY2ALRZrC6c1VowFtHu+L3f4/6XrsvopF89Dt1wSO+r90f7ofUHKCcoQSj7dZ1qdD65oUTElYLAlEk8/l+u6z03PozuFIo1XJfjqtPP129vCVSa3iAqlI0Uf8WLxwTfY3KQtHy+Y3Suw3B1B16fuK9IXgM0IAxhFqwmcjVcZEXyVns4rALmNboeUf/kZCM84V+jqox2q3dCDpuj+XypYxMOZ1bTR/COzPZBsiES0YnbCM8kHwvGHMUxZa3fCiFHr0xWUrR9Me26sGE9zRuta1FnAkNlxdFloz9/bBBbLj4OaF3hek5/30buWRPG3r7W/VuCu0ynmP/cvBmtPIP6Kw3vxoccEcqwnQKzYFNQr8B6r85KPRmXUH8w20uHG1JT6oNoSfU8fw7J9yXclb1R4N1MQGDiSwTU9m33sqUu5ppohJPkq3kKfWDXa29Q2Hd0nUarFYfWu0fMUa4CC0SGk7jtrXbaDwj4PFmc1WKNVyk3FD2/qu34mYWlP+RvWCl1dynsStjcr03Z++QONIBUDwAIkcUIN1YwB0t9u7HHGPPOsd/I0jlszon6Koww3/vQvmu
+ properties :
+  width : 788
+  height : 584
+  widthClient : 786
+  heightClient : 552
+ controls :
+  -
+    name : EDT_SUMMARY
+    identifier : 0x286e62be0ac6ace1
+    internal_properties : CAAAAAgAAADG7VzM0OW1w8t41Bo1KNGgojOI0J8RjUVJvsaexcWeuru+HDQ//IeX70VPZ/PnTJ5J2oJ8P+hW06ApkBzQQIMj3cx4oJPPr0hh71ahDarx8qzYSUF1+659T+oIosG/+Zpqs2/n8i14qwq9IIw2TKOAXtLUUIs1EIfd/ADu4w0PtG5Z1lzSe6ma0n9NH+6yPSLp2uXWiURs/wu2c4Q7vlPWysB+6qYh6hvY1cEgUmaM32OPwLG05lVjz50STRrReHLlClVcOzAr1WMZ8FSUX6QKfgetCqMl11DcOL1BnQhD2xNZkQGdxoPrzlU8dwrvpkJ2JwL08weGKWK/+VX0Ux0EwoKM69GgPRj+aiJSEJx/dTl2cR682SPNy4XE51duSvw6EN0qyqRATmfj9Y9kFQlypO1jhmBIiKgw7jTmFsyg6P9Za4DnamnTuQo0crh0HSqFfUOgw5eP8lob22yvHT2zvyuuNM2RqD1FyHQ+EpC5n5BivzUzo3RDCN+/Npp238Kuji4nF1BgQAD3kJh19Cy8TzdcO+ddeG2VWQGmPs57gV9NfyfwAV/f3yCkSLayufQ1wGDsmOq2F2KXJJUdD8t32zW5Crq+Hlqf0WBnRhI1jLQdPmaNzYghfAXGDhLGA/8hBuzsejHT2AqvkkgsKzKr7B2//5cyzh83uFFEzDcBgL5a36TURNdeghpahappxMvsa9RV7eEnoV4uWpd3F+falb8YLXAGn0Q7wOlceqcCFJ0cex/NJRjfkPYl1pyP3luWSRi2QKntifViiCGvSxOWN8T98/qSEN25LGOOoOA+BI3EnRdDWkRugp+OexLME9OwVAMllmAUQy+kJH12T3KbHavdRTQ/JRSWjd/AmbdyrXuDIvxPCa0UqBmURklTajzGCTJDkoMXbQBzrCxkJYlNldEy7rCT1MUKo7HITl1XkN3KfKm2zLcovAu5MnSJoUjulUXguELsGzzSclngyH4wDC3K9hGiHmWLhBJ1TiRQ1N1psHn8QNgoDCyob6LmCE5SOJaFeRTI6jQEvp0m7ePdEZ28O8XRpvUUVAv1RDyu2rxXJU96snwMctB7+uJtsEDw7JnMKDuORdPcI3l27UiX4Z04OANKlZd6Mwe2a+WB9VkgpO8sPhA8ya8TgRgjP8atcS6+2ThdiLz8fbjmXpAJU+ckQM42dfgBlSzEz2uvwIj+w00xBjbYDFocw9muHuYVOCO4YZkZ/BLkGK8nFSiAUK1TUQO71hH2Ud2Q1AZeH3B+1Hsyv4G9UBNn0N+WmxPRQ/iLSH/UPG2+ubk4ippi2i35Sks4lQ7JamvfcJSnrsza+Et6/b+h+AA5XkJirH6tibXku0NwcP3lCJEQzNqFu/hUl6WNtJZF5eQTs1IbY40SCoWlulYTriM7
+    properties :
+     x : 6
+     y : 143
+     width : 774
+     height : 376
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : BTN_Close
+    identifier : 0x286e62be0ac7ace1
+    internal_properties : CAAAAAgAAAAftG7VsDplMIqCiLo1eYlI5X1sA0lAKnxxyfbrl2kWUZ5zWWO/5b5n1QW3Wjmllyb24FIT9lzBiaD4EQaSqV1ZgLhkqfpA/40dePS4smoujpeWYrrdPO2sfe+2K9ntrEOwoNjjpBlNSlvl5cZs1A22elUtBeM0x3DJa/kxd+PAYv93hXbKlra4DdLiH23u51ZgdmXYeWJ/DcNsdrZpPkAmlQ9XUQRS6obYLgBIFhctW+9Iuf5DtkF0Hhpy2BlW/VknmBRFza7a4MYnLCq9fHw0AK+E0Oh9CFZDILpZ171fQpc5Y+shqsXNLZNc3zlTzuWnfHrmrIgrwqSiyh1xFnYQYbed3dfptk/DVFs5QKmVLFGOfQOF79tJqmY6KD01nTBMEQqVjAA1yCnIrbwKCkjIVU5enpJOSNjzWiknNPNEv49K3vobb+piT8tsEKMkx7Ovyx6R5Yacpc2DNjA7wRFL0VoN2RBgVmLbdyQjQT2hkICGJ2pGc6a5upmDT8D8km1RYctwNdGfZ81bBzjdnW/CM7OdmKKX2MkzwUPoOYeRFknPioFwNQs5DOhggiChsWBrt1zZzfsNmu/rp5wnD4aPeQN1seTmP/pkx4zmXLO+Ccfx/BihGUyWE+XOPh0Hi0agVvSCnUL30vwOHKO8HloGXCnCGczfVfXkRuk/hMn6fPEhjXWVfN3zrAnhSsv1DJGWrDucX6YM0mzJKojs2haaJtotfG+NL9JxlOXKe46WxMqMyn9VHhfIVXMZkBWvuU2yWwQKSWHpViYyDpqOSwUpb3ADTRq3RudWUmjskVKFLkFaAemjTG3kWSCSdl/WY60b8eoV7w2IFugqy/H4uCqM0g1kUU74rTBuWWxqUSPj2kKez4JJ2EjhHJlhbomhI3kliDgL8nGF++7osHwSZwfsbcr3LwT72uO9UVoWb/+zaz3VxUy4lleH8Ixq4GaYut2x1KyXaCt8
+    properties :
+     x : 699
+     y : 522
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Print
+    identifier : 0x286e62be0ac8ace1
+    internal_properties : CAAAAAgAAAB8kxyD15tzFpiptQSEZ/svc7GsevkNfPDV4/IapCwb6WiTLpFzTyWtSpX/sNG+eehO591Wya+tfqQlXrZVfUyKewTNH4kQqI0DCWoyTdRyQF2a7+Cq9mDWsZB00baUKLdxMzA9c5AtA46BeuPn9thhweqpOtPiViapm2JNK01TXTd3/p8FtRkWKOujtKCT88WRtSHbMO/UgCq2iXKkCOM7sOZ7OLdpripBdFI6ugxcBBjwUzKlUIXGVle3zL+ZcDhTwlinQkuGMyLDtC3lVkgCO2u6yL8nXTWgQlVddr3r5hesumDVgxtpKaJnKAE4+L2iIigPHEKV9/W9BhNYr7wr09QwTekxf2qaQFrZVOKxVvtluPTP3YyzwRjz9m6XSjpPDlljugyCqVuwgHDFde4koqH5VfdiKn9nv/JjUmBJa5J/nO/ixGhtH1CgU052zzD+o7z9uVwUOylH/0Q0Co54MYMjSj0vRU6M7YIzvXFWdmrMYJ+If16F02rFrt9hgL3TN1hPPdmjuev7B8L3jdVD/SXdgU6rtqaMY8cIZk59D6KqoOV0UCnvyusagiYFam1vXkay/Uw2LUz4B1eoYbPP3LiO/JX14Pe9qzHWL5UuZtRCyfNlXCxf72nFSy5k+zFMUQvXrDhMiMNYhD7lf2iAyJ0LkhbrQa+DGDPILCy/ZieVDgTIZUclb9i2Z7rb31CMMA45CXWbBIJFVk2gxlIdUqd+WC66GG9FbxuhmROjKtMZi4DP61qxkRw3zA/SnnAERjV5Dd6kLNv6g9QKu1G16Xe/EifIfxYTTzCcugyiSMbGIobjL5NWNTI9khWsPEoIiFaqF27CdTwForVugQzK3DA15E2WraUSb1W7Qkh7OcrLrZVIS2NCE7M8Ui17Cor6DM0aP+Cs/qHG0gaofWx1I6/XI4xP9T46F97JNmEac1dEqnkonOkZRHX9
+    properties :
+     x : 6
+     y : 522
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // Asks for preview
+         iPreview()
+         
+         // Asks for the configuration window
+         IF iConfigure() THEN
+         	
+         	// Print the summary
+         	iPrintReport(RPT_Summary, EDT_SERVER, EDT_SUMMARY)
+         	
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_SaveAs
+    identifier : 0x286e62be0ac9ace1
+    internal_properties : CAAAAAgAAADFHqNNBZq5vdnJSHe7fH/tLasiZuwppfarT1hoTr5ecD/MifJJPsT6TaLrlZdWZbj7VHxfOMLS7IcqBpr+skgo9Uj5nLCMMDYFoyoh9ps3/dz/YmOYKB4P7L8ryKmeYtZGpAktyqEceAex6QC9nHJL8WuYReFB4u75vjow7hOKakq8wU62HGewnNy/Fag5VHVkcSmwtj8wc17FA/UbP9dr4i/9Bmjd/FFQvw0BVrAJuWSNaG3pUVhzqnGWCV0ZbLWlPVICVZlfSi3QulO5X75OQ1+Lzj6RE97mXjZvQMFjB8SDprOvgJ8iRhNImhNniPJGNAbLrxQOFYiYgdUvgMRrKrBBhQtwscUb+ZAjHTbh74Ap0efsmTqnpp2KpMHyf4/CpHCuE074zOcY6ZPTV4dZCqI2S4FnFq96dfKgZvV6DGYnjL6byieK+ZZkL/O0hXLDPwefhsqz64zbnQwE2xo4seFPr6+S1ZUIBKOsYI4beCI5vc3tV/mtECu1QNI9bvmIQkEBumf1GZTZBoUofEKUfjTX1Arl8RsX3qcyusp5aB8e6hL0OeRqyTB4eZ1sfY07AMMfdO/qL/hQVIcTe4znzmSBXuzgqwo8dOg8sWi7keffolTd5pS7ZA4uE3PZS3gGRPF/m9tRx4yN0Bj4H4/MisQIUTYtmMiJbS5jcYa/bvRig8umFH6RYvJc0Jb/yYv1b5q0shHM1bdNy0n9T5AmTZ2rNFhuHffKtUVf5RPsmr4KtLWwzMwrpKMHxgS55LDUe7tb+5mfUnoGQyIVZtqsVhOWgKwz79Ddub7ktEG58ogirQwM+kubd9YZnsaxsIdbu4jmEzRUvbMUhdS42r0Lv+ynbZKNdVjgNN3/xTQLlKmR5kIqDj8+z1HDhF7dHiJwbqikBC33Jw7VgRbrZG+oUiWuPApTf+KQE1LzSfFFCPrCWA7v5gDc8X/4xU+YJE7ZzfRW4g==
+    properties :
+     x : 92
+     y : 522
+     width : 133
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAABFLwCKYzgOApVWcxxQO04fVUfW4H4rT1f1lA/yvKEJSVeikCR1rh3dNvUTGqCO8yTFCDhYZt7PA4euLU4nuVUtZNjRPJgRAUNpSz/1BQM/U1LIERBRlEtaGYnq5e4aqhm4QLRCbZBLMSaIueI=
+        code : |1-
+         
+         sFileName is string
+         
+         // opens the file picker
+         sFileName = fSelect("","",<§$001c§>,<§$001d§>+TAB + "*.txt" + CR + <§$001f§> + TAB + "*.*","txtt",fselCreate+fselExist)
+         
+         IF NOT sFileName ~= "" THEN
+         	
+         	// Save the file
+         	fSaveText(sFileName,EDT_SUMMARY)
+         	// Asks for file opening
+         	IF YesNo(<§$0022§>) = Yes THEN
+         		// open the file
+         		ShellExecute(sFileName)	
+         	END
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_SUMMARY
+    identifier : 0x286e62be0acaace1
+    internal_properties : CAAAAAgAAABXpxtn6GHVrR/eYuchmTjutDhBLAShAjD3P3sQ5M720dUXXWKQDzspempk7mhZs4j8Vf4k/wGx2wE0scyAGVB3ZbDQ/eMZJAmH0UGfbJQTh5/7FOWbc0h9ZyBAtG0dnbGrdM65IVbZbJ+X01KD4yVJvkV0QmZEW4b7VhqrH4s7aN+MnP/Y2mQLc27upviYa/2rs5KzWJ7calXKHhD6uYoKCVBWD4JBca+mO+bBAjx0jONVZSOK/GuaQ60etYWu9YcGMdqpE2KfSrM6tVTVCIFz/L1MLzl5ODhQJUSPc3cZjUtzOw008U4wdRNKeb0RKv6TfO0k53+7CGk19kieiSilGvOoWwghGNXcVOnz9deziRq/E1r2Lr/5+Tq0aHo/twUTlplAOPNsczfHjnUoE55yEnqnQl2GEmoDRKKXaSTszrreWHQDdk3Eh2CGLENhgpKZ8g0+/dzoM5wOqxQ1CLEWzTg7pCMU7wi5Z1wMQUyM9j6A8ueCNVGE8OdeN1ISymlRJyHG/yfRq787iis1FSjzYWcA2ND9ZNGbYgZI185Juzp4ujeqlg7slusGv0VVP3eVSa8AzIZhpEE/8Vp6TxUTOniswKOjthk7epabkpDfOG2H0kxDvxZGTxuA9a0Hjp4qbQfHHdatawHusgjltGw0m/xhE1UAvg0AmVvCC9PISOxHMbWBvJZNCkgXjqx3clGawU8jdc22lndYnCujCZJVfZJ5eGVEKWKWsy5+GRqtgrErN1myEKCaLk1yTSQMReLiCy8mSl0IBdQ2zg==
+    properties :
+     x : 6
+     y : 6
+     width : 403
+     height : 131
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+  -
+    name : CTPL_Connection
+    identifier : 0x286e62be0acbace1
+    internal_properties : CAAAAAgAAABhlXYOSPQXeMPRBNgOFICpcR4JrOhuZs/64jYThoAO3ClEn+dz6MmBszQ8UPTAxAUCc21o1oC/72p0UFPHPaIB/DuwYBOkjJR5O5oWMMm32ALAj9VGAY5BQU9WcbGvOkCMY/IdiIzEzD9+FHYXfuyrJmfdwrQlH9xGHVSZVwuuPOE2TzuAfdTJY+Hz51iIWrTz6vVsk+/ZDzoHhG9UmLzN4j6mi9T83dPQ7JwcjO7ABtSrjfNOpghXUpKYnJQn1K3XvGSmGUzCS5gaARcRcr+zs3uBJo2+5OsbSZkO9uF3xlqIsVYpfdaUfKqRRqheT7k2mbUzoWyKzde4Z5qyfM+aLw+z8cY6iaxqKCQl9m0319IEfbbEbg37JOZ9w0/qtXcW9KgSSxErAFdDtOf7HcG3WoRJVgV84zM3L+C9FTVhSjG7GNUw8e6yiHJ5iThOwcAYmF/SzO2T7zNTpCXM7hJObTm27WOy92AQxJPQdFjv26Gn6m70bQu+Zn5z1AAx4Xa3zqlzDE7AmLEId0uaR6d1nISp0OyBcwT0TcAMD8HedZ2mItwMzt5OMW27sFcKUbdveuXfKpj86rmxEF4Pc5PAZVIlh4+BGTtVEY79eEtGGJjjGhTdxLvUyhD+jDd4/GyC0JeDYSqpa96dUhvyLkFyPTOCq6qp8Dg3ntT3Edcou+4K6VPRXeII0nWuzTqWJi4523K2Bt0sHlcc2ksZwy7DgLtaazSizAJl5cP0Biss65MmpxalvV2TEorhAWUVxsYz97VVPBc9I8k=
+    properties :
+     x : 415
+     y : 6
+     width : 364
+     height : 130
+    controls :
+     -
+       name : STC_PARAMETERS
+       identifier : 0x286e62be0accace1
+       internal_properties : CAAAAAgAAAA5gPrvO0Il7CdkSwCfyaXy/7pnKakwmF8OKo6zfhusW+fyhCLQozw2IArTQKzwQPCG81PWK+GaGRBe5DoxzI0CMG+oH3JbnrUc0hE+LSR4e1smQk830qqyaqTDX9n8pVtTYTp8c3651/7EQSx3qZkeGLQERfplkiRXyNhQV/LRfTAraqs8LVwI4/E2knl4qMxMiq31Gk/eu/h1fe4k9e3V8AqCOxPz8/4Y/4jYXsQMb3qru7JTURuvgnVjKbRgeEvT6Xt4hrhx0HxSBUH2tvUkuUTXcBHKehXBfTjTgKuiuPbEyI2rSvChb7UtTHXQiEU7dJExsSsxw0gkZyNVaDmJ+U2oR2XQuP+F5mVl9bDHoxWPp8hYYv3DU9O8yJGcnUv23fpUogyOxPYcm5Xf5MzBMPSg4miDspy4xzI4JZstKxKBAmqupEPf0fJo2TpQ/XKzUYKQIOGtmAw/fDrmdwkEMvRPhVJn5HqwfN+IbcAzsBwTpBPce6RlJHZmcuUMyJxOFUbT+/S7FJ6TNwUZATVdiD7h3V1E6SWPeKL3iiIdEXKKvfCE/SUFbUoEzi2dOfwXayFBv/+OheuLS/WoCw==
+       properties :
+        width : 364
+        height : 130
+       type : 3
+       code_elements :
+        internal_properties : CAAAAAgAAADs5AMngyoAMPKC7I8toESVlTUe19fJ/igMyYfeDj/EzQBKKRr064SFYxuMpFK0adcKzdRq+J/OcrUC2o5uCsqt4nIraLtID+kngDYKa4PE5rI4kSr2o0ZwU5Xj9m5X
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+     -
+       name : BTN_Analyze
+       identifier : 0x286e62be0acdace1
+       internal_properties : CAAAAAgAAAD1OXu5ZhFmHt6aeq5dpxkr7UI8zivVoO+YAKShidzFT10YSwOPJbGlYHVO5kt2AxkfsMTzW/7lUsAmFguo3Gz8qXdUbMMoVY0RpHYRt3w+i4DwW8d44wW2yhbMV1Dz7XHxR6vzamjTZI5yxJ+XClnnBnL6tZlAmb8Od9F36wbtK4VOvB5tYW4+w3HgZVToujsWYf7bWSdRJwmM1FK7H8XY2rjEXM5xWedMWrxC8UPKvGvxmGWypjTjtJsAMVXl2MX9hOrBk51AyqXoiVBA+9z+j857Cc5pO6bazUXUq0Tvd57jMKFoKoyV1e7CjydY6jMc3gsdmTOFQyiCDQ60PhRbYtdmrrXdTGtk1VmAipWK4a1GxG1IpUGv1odQeHhHshW+gv50T6EQptz3Y+zsAD/aymfyAw9YOhxnJigIt28ch1BlketgMcHqMSRX6DGE80ZGzUE+h3WHIeSV9NMlTZOSdDtBp/HH/CW9etUCLi5QEp1nIFAUPEQg6pVuGQJn6iyJ8QqAPDSO8MP9Y/yg8dB8gSMi2RSI2gq9sa8J2e2UPhjdryN25g9VQ/YkQkt6zEpoStGTMOEjkcbQIU8gR8QWd64E/pTmKOezZ3pGsfa8WzLu1rYTvzJUhNy9RvyxHVNv2xh/LUBc/x9g8+GwMq+wJR9U22javLgkGcZjy6q5ebu7izKarvd7rulGMli8yGWBnO91MPWhRG17IqF8LoqBgDdnmtDKLhA4Ja2kUtz5AmiPqPjBvkwKoAST6ZqHtQK3c73Fqiq3khsOE3VTO50EdV9YFHGdnARBefohr5iVu3IDENK2CSmLnuoG22W/aa7bhpuK8Zu79uA7FRgjHDda7QFJ81+eEBxKQxWgBH5Mr7OvXVMU6Eh7Efv7BTlSlniKx50NP9WrWUCpeMIug3sbINhdzA9+eZgggVJSThqGMUsOSzTkQI4i/kVr9w735DrdR6QFPLeZ9g5z55MaE/WyvC35AkcqLAwJw5CQJuoIdfMc2V+LiehNKmZLQAIpbUeFCzoR08uRjq2RKXYd/9FM9KKWx5hjsPa1rF5ZPQmGfIQXAbYo7wGUpygCUOhnJpNmlsiukTy/vXITb0TC5hTe3tftqse8zUovk3lN/3D6
+       properties :
+        x : 261
+        y : 98
+        width : 94
+        height : 24
+       type : 4
+       code_elements :
+        internal_properties : CAAAAAgAAABtFZTWcBs1RbdPmzJIvffg0uJbGhj+l0X5hp3kIE+0Xfx2YeqqS7zlu0s2LkCAGWSHAkGReRiHdTqHRSv/m7me8wO00079uhIctftNtkj5mcfVNvU5YPmlhEYUhf3Y
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            //Runs the process defined in the template
+            ExecuteAncestor
+           type : 14
+         -
+           code : |1+
+            // If the specified server does not correspond to the local computer
+            IF EDT_SERVER <> "\\" + NetMachineName() THEN
+            	
+            	// Stores the information about the computer to interrogate
+            	pWMI.gsPassword = EDT_PASS
+            	pWMI.gsServer = CompleteDir(EDT_SERVER)
+            	pWMI.gsUser = EDT_USER
+            	
+            END
+            
+            sAnalyzeString is string
+            sStringTempInfo is string
+            
+            HourGlass(True)
+            
+            // update the title
+            sAnalyzeString = StringBuild(<§$002b§>, Replace(EDT_SERVER, "\\", ""))
+            sAnalyzeString += CR +CR
+            // -----------------------------
+            // Get the information on the operating system
+            // -----------------------------
+            Multitask(-1)
+            sStringTempInfo = InfoOperatingSystem()
+            
+            IF sStringTempInfo = "" THEN RETURN
+            
+            sAnalyzeString += [CR] + sStringTempInfo
+            
+            // -----------------------------
+            // Get the information on the disks
+            // -----------------------------
+            Multitask(-1)
+            sStringTempInfo = InfoDiskDrives()
+            
+            
+            IF sStringTempInfo = "" THEN 
+            	EDT_SUMMARY = sAnalyzeString
+            	RETURN 
+            END
+            
+            sAnalyzeString += [CR] + sStringTempInfo
+            
+            // -----------------------------
+            // Retrieve information about the shares
+            // -----------------------------
+            Multitask(-1)
+            sStringTempInfo = InfoShares()	
+            
+            
+            IF sStringTempInfo = "" THEN 
+            	EDT_SUMMARY = sAnalyzeString
+            	RETURN 
+            END
+            
+            sAnalyzeString += [CR] + sStringTempInfo
+            
+            // -----------------------------
+            // Get the information on the network 
+            // -----------------------------
+            Multitask(-1)
+            sStringTempInfo = InfoNetwork()
+            
+            IF sStringTempInfo = "" THEN 
+            	EDT_SUMMARY = sAnalyzeString
+            	RETURN 
+            END
+            
+            sAnalyzeString += [CR] + sStringTempInfo
+            // -----------------------------
+            // Retrieve information about the local groups
+            // -----------------------------
+            Multitask(-1)
+            sStringTempInfo = InfoGroups()
+            
+            IF sStringTempInfo = "" THEN 
+            	EDT_SUMMARY = sAnalyzeString
+            	RETURN 
+            END
+            
+            sAnalyzeString += [CR] + sStringTempInfo
+            
+            // -----------------------------
+            // Retrieve information about the local users
+            // -----------------------------
+            Multitask(-1)
+            sAnalyzeString += [CR] + InfoUsers()
+            
+            EDT_SUMMARY = sAnalyzeString
+            
+            HourGlass(False)
+           type : 18
+         -
+           type : 161
+           enabled : false
+        templates :
+         -
+           name : BTN_Analyze
+           identifier : 0x1557958e00e1818a
+           code_elements :
+            internal_properties : CAAAAAgAAAA9pURmwGtF9Qf/CyJYrUeQovJL6qhOZ7WJto3UMD/EzQxGUTr6m0wVC6sWrqCg+RTX0rHBKagXhQrXFRvvi0kuY/Ok4z7NimKsBUs9pnjJ6bfFJoWp8Ik1FNakNa0I
+            type_code : 4
+            p_codes :
+             -
+               code : |1-
+                
+               type : 14
+             -
+               code : |1-
+                
+               type : 18
+             -
+               type : 161
+               enabled : false
+     -
+       name : EDT_USER
+       identifier : 0x286e62be0aceace1
+       internal_properties : CAAAAAgAAACvSDFzLe1t61/4R4DwGi3KEIcay4za3p56BI98d32dDU1YOWiuPZzPxM71EFjRFiVVo0ywPYBfe5eRU494oZUbPE9Ya9d4vOSqf/uKRnWULGLMAUJsx7TcxdBDGkoz48QXDiuhON8hEDZzZ1VfuCRwrYDdBlKGT+37fQvf+br5Jde3PI1t1zhvlnHsjqhAC7xdPkVSj/8AHPbDA+QAPFEI2UQTa46sAqqvchOvMUptpFsTfnTVJLHcIpuZ+NlsNEacI0CArHPq7MFTzlJrBjiiMBu37ssbIQP58s6un+Q33yST1zhjnpTGCdTRFFkb4OvHSo384pDA1JyZMa6rwQlhmKMiWfGTck8RZgFlTWXn/sUqzP0Hpg2DlddawdgyPo6dJVfw+UnmCu8fLYYZogxGJIBMq4HbNmkk3Rd2JdEuZoAlmjM22ES0nl38NTUZPtF9v0CPprAR4Azr9HzGSqK68TtK16wQDnF0tUAiusVb2FVK1Mw1TFJE3EOyAQh5AmUnG6HRjpC5p+JL4G2Knvb/tfWHbnHkp2lQt1c/mg8fixMVImRl0cKtEBZNJSeTT3MJLJFIfy8i1/sheNnKmU1AhX3oaMzbRGGFR3X2gd7RrfN5ybmmucomS7NTfmUBDpcHuB3nrNWZH0CIb+vm0UJMEZh716xKllXDU2LP/OlIyiDfK1pHasz4AgEbh8RPanpThtu5nvhzpoR7Smr+3DHWYS+bouzSHr7wSryBwDwECfJ70ileBgMTOn0HjQgewXvTRrHCti6MxkIiCbEA7g8CjuhQ61a291Fdd99C/VVZIyuuOH+EjYUf5zq/0UM5vud0LPRMD7UzbM2r25BIcUUfGM5gCs0b2V+xAaStrNTHqCyvIK8MaMQ4yTl2K2CHkpiA+KEU2lnf7meWvIJ/tj3P1Zsu5GGzqeCD6JBqrS6gCHKIfteKW35sKCo3sHbnJe/EHyMqfwP7g8IRCE4N4kloC3QvB7ugUzrdPXZLN0ZpxgaJLMFD9tQGE5YZRqAiyEpfkCrFmuyAhhzt5WVJ1PDEnrcFTJq3xuQBCiR1Pzw6IEru/bqGZboiUA9OgOWpF8J4RFArN6x+at0n5ElV94+ZJ5vZ24lMzPPKZ72KS50x2iaht6NY9Q70mDg4Ipk3+uwFHfi++ZpFz2EFOKMoRiYFu8DD0kkHfdKAU6Cl6dqlUHlILOHBdj3kc28g+KCNtMBbtDqQTYX+d7A/ZgremtA=
+       properties :
+        x : 19
+        y : 70
+        width : 238
+        height : 22
+       type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACdBeQGoAtlFeffK0J4TefwwpKrSkguxxUptk2U8H9EzQzG0bq6mwwVi2sWLiCgObR3stFhCYi3Zao39buPq2nOg9NEgx4t6sLM5audxljpidflxmXJkClVdHbE1Q2o
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+           type : 17
+     -
+       name : EDT_PASS
+       identifier : 0x286e62be0acface1
+       internal_properties : CAAAAAgAAADgBo1LIimzCwI0i5wcbVBsFJQTS0Uff9V0p8EXTCbwhe0GVJSij8RgPShHvliOCDLfo3rkMKbIMjcotX6o9TE0NCUFYFH/PDULMpd9t5sqzflQzzA+6CWriy0jGft8ZRvzbsVrCGQ64kX14bsvlQhhKJUykKN8fO/bEMIgnrBiVinKiuMA+XccCaqcjo7w4wgYgyG3dmlfeZGwUuw7DyQwLqXD2v11jW5aIBig9aps+WEFlgRvBULY4vpleEGFa0FLzjCUH6mys59Wm37k4jQcQhLZfJYdkGMhQfxO+JvAB/ljZwYqUK7RK0H+UbjLJ1T9d+IHFNapuGvAtRWg2qnJUqcJth6Aghpub0y1LPeqP9mzhC3Y32Bmj6F6Wrq7FDKhlRdmoxgWy+9MlgH5H1BI+OcTEcW3s3b5GL/EmWwR56aOCLROgAWfWX66oHazsK/rMiq2qDsLGpBwUwZSplTOs4dxTUbR87tm63cZnn5jce7K/PrvlrmytTX/CoYwojkNGyKadjavPNxWSdFA6o2chEtp5nmA0wVqT9EivNnkmU4JwM/tNJcL9HK/5tTsH+QPqGdrzCY3fFoqlUXX9Ae2u01orIxYhXHOk0ul5pLvzzY0sCIvR1hYWahpEE8Kp9r9IWPveBdIbB7cU50QXRCzoI3f1S2b3gYB7/r1WEniRdpyMBtmhiq8DEUUWU+rY6L/NXghTFY6OqyYsX4gPWCUrd2BO2jAyYaHN7we7MpV3AaQkfip4FKBhDI2bp7EmhuSkiV3LeHEQY4NJr7t0rdIUfIXIR7WHTo0+Bz8ejtwg8DVZ08cfG08Fzlc+oQzI5Bnyglmhm6jY7aY8ihvGT68ktRVAfQXviXn2KOeHZdJemk0axdP5baiwQFeQaQEj3uMy6kCQ9v445v1y7CLJj0ECXItJDeUd/H9imF50oBHk5GZr2q4QCL5r1NyKdWnsd4fA6vJuNu8G99xY7Ze9B/PF4xqFZ3024KG0xrhIk4UUEowHGRfb8XfltGBNyhKkcBChekYqK1TaW4Vwt1ox1OU/GTb5ahc5JU8UwaSuhN9tRRGuDZlvxduEigCsbf5eL9gYfAGZdWixdc7J0rXaRRAEw3+ZxmwoXIWUj3LomkfNSqUI5/4SRcVQ0FfSkqOcInDYjFISybVmcfq0RmXv+PmzbAo5C8E2kLjnfXNjwdjGsVJKn23pm6Rg+BisIAjWZtNhuKgypMa6wS5OhsXcSzkA3Fg5qEnOJpA
+       properties :
+        x : 19
+        y : 98
+        width : 238
+        height : 22
+       type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACdBeQGoAtlFeffK0J4TefwwpKrSkguxxUptk2U8H9EzQzG0bq6mwwVi2sWLiCgObR3stFhCYi3Zao39buPq2nOg9NEgx4t6sLM5audxljpidflxmXJkClVdHbE1Q2o
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+           type : 17
+     -
+       name : EDT_SERVER
+       identifier : 0x286e62be0ad0ace1
+       internal_properties : CAAAAAgAAAB6GkN6U7BSTdhcNYqlcDv/56w/TQ11+I83sVLTKzYpZgduUsh5Tp1MMWEduM2Uu3P5y0mjM5pV+r7FcyuRnq7OcfEVba/yt74J7y4Ni3l/MuJ2c/p+ebANGeEswCIFP/FgUwB8/kXzhObLqjPOfiQ6jGmOYBIkwIFSRU+MeTyB5U+2U89OatHvgAiFyoffEe8vZPQnxEj0e5RiNXPJ708tnnXGhiaGdc7ZIyKetnkDxgDuLoB9Z3U8bgT83gyk+BUDz4waf3qzP4FHjqsFcqZvTNNEVf3aeQ0gI44oDpRTLqbUSp2k0Ws9EbLq5O/ufVa+usyqbYlICJ/vMQ+OTX8BVWSAQKDCjqBYqdF7OOJ9gUY9rNLRIaJDyEnSCqlX4+P+cN+urC0yrrXzHQ8gKOX+pr8WRISX3/8z6dIfFOBdnU848C+Hez+Y96Vyw5Qtdh5shlD556smMYzoZDQAz0fHkCxFuO4dyXm/c83BobJPmR36JIxY2881AF8gtaQFODAQPFQoLnD9rL2f9k/sRxOYrLRGalgGM9uoyE1yLHJldIQXh7y8Q6J3e7qf2x6PrIWlSF5UTVOUgTfZwuHiloxI5L5MvcnTIjCwLFBTC2LCs9Aa0k8fI6rXLsjSDCu0AI05iK8C959TGgGhIL0YTq863C9tYby6k6AJJOKmQ5T2ruFlfUyTGGJKpeYhZYgINA42wMcOIvbNnNwTforcl4aC0wN6afbLqexKTk+i31reZ4xNeH1o1fzMHHE/yMlOPBhyKZGnieAiCID5HAFumlGuhhcgkNZ/ZdgIEFv7ccbZcnV6IFMhvQF2X5QNQhKhLQBDEz8sKlWOpzkvK+aE98l9xQIHseTGtlrYtTQCU2NgHyHmmlyIW1nh1c8wFuIjLdV7wbuKb0jHN4AUTiDRWxe8KRSzdEsWEGfGGYVuAf7gIeqYSrXnLHG/QPz/O17b6LmOwjc2tU2BYQJiePTeab0FgFJkSRWR2cP0xyd5H/5ciYzYqoUop4xPZmFKFaq8jk/vUvCuzbEZxoegO/DeHGHjynUnOKYzhSUy0QgivGTAC959CCSOtWS/Lp14lXITSaiRDOF9GNZZzZUCK/0REGDSvyU/eBnrM/QPOPbS7cZR8iImzBgjU0cpQ98IevDDY5Si1VEYYCgcZK/y1eE1PRR9H20x5YBpyAU20hQEhwSPugT5D38a3zChZ858w/UQ9asC/1K+1tku1qz0fwbfebNrQE9ybhwmYQ==
+       properties :
+        x : 19
+        y : 42
+        width : 238
+        height : 22
+       type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACdBeQGoAtlFeffK0J4TefwwpKrSkguxxUptk2U8H9EzQzG0bq6mwwVi2sWLiCgObR3stFhCYi3Zao39buPq2nOg9NEgx4t6sLM5audxljpidflxmXJkClVdHbE1Q2o
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            // Local computer by default
+            MySelf = "\\" + NetMachineName()
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+           type : 17
+     -
+       name : CBOX_REMOTE
+       identifier : 0x286e62be0ad1ace1
+       internal_properties : CAAAAAgAAADQkxI2FtXpGZej7svJSwX4DrlxckGiqZMPlo96UkLa4zKSyyMVcQdFVzdChAhWgXPYfaxtM44gdK0XDWnFKr0eqpZF+us1Q1YC8dKNyewVJBaRs/GzQEgMPcgKRuu1uJBpCttwFGfPtr3vUVHHU6BZFCcxW5SIfBQAu64vuF995xL3zHJ1y2peu0gdL/RRLDRfEtSnf+W92Wi83sKpPVM5EJOWnGAm55IYBaqist7BWMuDcKN1ShQvrzm8JYylnCvBTymgptPa2ZEpLbc7yhp9n3vzG4fExhRw92PVd0jCPiHUp9R04BNQ20TmkTM3yZIWbldD2w2PfNZFx7PfyyxTwQoyK6hHAIgKr9LkqsPcT4VefUkV1w5y6RkKiMWNWtKQlY2gcjyomlsawbGRBLXxdglw8WfZoyZdxJH5AYCdsjoL6bg+U0gw3tTILibs1vy7nSwK52Xj7q6P3BRAHTL/Tk5SLCTgqH1yW4biaCNNN5ag+Z5qhms+Z/j99WKUoBEuJz7wrWMy3lpkP3/93lOJ8+cBd68Tqk/L7wg5DdRNtfQeGhOuzh6HSAq2YEawtbh/67EyCeW0LaCJJB4+H/wW2cyvg40uP5HRt9ot1Kb3WYn6en5cgLqlBpKD0oPaxpTnV8muJ433+ePXsmSHh0ozbsof6uTmLVG9/L7giwABIG5xcALmLLlIY4kwbd40z7L/uiBr9cehBs+eh6r6ZiSXTkAE/w5QRucrqfi1CJ3w9QKcfl9L4m+wstKjEQQMMkEEEpXcGQGyMt+nYpmkVlcrecS8cGvLGICH1ZV53xEcZs9+hPFaO8PmPYp5FNf3z7Q13UFG3bs7TD/gvWj5jwMJ/H+1DEpGgpXNFaNWGfEqmKoypZzQLmAaKbPvNp03pDZk+NzsY+UIWJAk1VwBmNHJTvy2EaIkPbi0WHZeVm1dU7Y2axVsXMgMKABdtgjdHnwxJCvDnsu/jBjtjW7bjR9cJUv7LHA7JgAn75+uJrSDd3WlthH3EyojFXKuijeAUwtcWJnAROKTfcapTIRL3A9zB7r2uAyMq+JQOKZgBxf45maaZClh4Eky6xqvmuUstpy1zacVBsP35ZgNiu/EyznlNA==
+       properties :
+        x : 19
+        y : 18
+        width : 338
+        height : 23
+       options :
+        -
+          internal_properties : CAAAAAgAAACR2ncbVCVMn8lvl8BbLBR6Lq1z7XIUbTcYAiXYnbkjzhheYdzUXyUh1lOL8j3P3p7sM8pQ5zU59f6wNZzBZ8uw+D4dOAGcFHV1vSXH68gTUbJgzfdWSVMYc7zqIDcu4FR0pae2IJj4xm/MCupHRNG6h1ecO3bV3iLbG+IFr5GoYDpfHOOuLFAm5qAsr1a1Uj+q6PmKEajjht4lqnBacLvWA3136wTsKx3SBBWIzgyNqAtYxHl83ddnP+xK1gFaubUAdCNf67lP7CSFXLBN4SrnkTGl3gHJFhP5
+       type : 5
+       controls : []
+       code_elements :
+        internal_properties : CAAAAAgAAACJMfAqtE+p2cuz3/48kVuEpsaPJuSas2HVomlInBvgKSjiPZ7OHwAJk2uWLiBIceAz/hWlPVR7qW5LGV9rz02y5784n/IR1i54UQd5mnTV9aMpgjnlvF0JOIro6Rm8
+        type_code : 5
+        p_codes :
+         -
+           code : |1+
+            MySelf = False
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           code : |1-
+            IF MySelf = True THEN
+            	GP_USER..State = Active
+            ELSE
+            	EDT_SERVER = "\\" + NetMachineName()
+            	GP_USER..State = Grayed	
+            END
+           type : 17
+    type : 43
+    code_elements :
+     internal_properties : CAAAAAgAAAAH2VZBXoGgQPTSOnrbQtIC3LyCca3S/9xAb2/eqmoeivHNM2BG5VTq2myUfRkMlY5IS6b4V9qX8uEEvLK9VszjdSPVvMZj6PuDO1TkkmqJ9KSMOVbdf/oyE3zB7zFs4Whj/N44ZCY0YUygiefedd4nHRr9UDzd8KD6DJ8wCT7Vu/sfHs0b5saetECMhYwYE1nONJJzAumWXPwxaac6oX6OwI312udZmg==
+     type_code : 93
+     p_codes :
+      -
+        code : |1-
+         
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 14
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 234
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 15
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 16
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 43
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 42
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 17
+     templates :
+      -
+        name : CTPL_Connection
+        identifier : 0x1557958e00e0817b
+        code_elements :
+         internal_properties : CAAAAAgAAACSCtkFrQhiFuDQKkF7TuL7w5OsTUkv2BYq18smVmMg6dQmeRrE52x1WxsEeG6kub1sd06ECqmoVEeUVGRw1EwzbDzNAh0u6cPN5qycxVnujNjmx2TIkShScXPB0ACl
+         type_code : 93
+         p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x24a4fd92f3b18389
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADulqZ/IMG1An6F05mvfuwXD4mnXbi7ft5+hXqRjxVOy6XTb8DUA9eo6lXWIyCoddoX1POTuRNRqgWWOKwtWmhRiLk4L0ZbKeWWgcz5rAsucILKnZViHVStlcJkBHxZ
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAADbwu43os0qSPoUkNxtLcVnr2dPcIBT3NV/+6PNbyNSJ0GnsTyVitnmu0WCDXaWDqt38sjBSqKgJ/r2xjK2M/umKInURAx5aQSVlmDFJ8gw0cRH7VHqIQGb2tEYaFyR0dk86Rkqvx/anuLxYFgUgnwLoaZ7fBJBSDT6DtlZkCRcEUMMwfsJW0jii69pPPcl9ougMEQ37tYjZTRf0pfxqUFw9ukMONSFaGxsgD2/lpRjMEp9xEPeyxg8G+886R+DXtnM8GPnP/Wx74VK40Lgtgw=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      GP_USER..State = Grayed
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : InfoGroups
+     procedure_id : 1760453072551980257
+     type_code : 14
+     code : |1+
+      // Syntax:
+      //[ <Result> = ] InfoGroups ()
+      
+      // This procedure is used to retrieve and lay out the information about the groups
+      // It returns a string formatted for the display in the example
+      
+      PROCEDURE InfoGroups()
+      
+      
+      nSubscript is int
+      sStringTempInfo is string
+      sAnalyzeString is string
+      sATempInfo is string
+      
+      sStringTempInfo = GetGroupInfo()
+      // 	string: Caption + TAB + Description + TAB + MAC Address + TAB + DNS Name
+      
+      // Title of the part
+      sAnalyzeString += CR + TAB + <§$0000§>
+      sAnalyzeString += CR + CR
+      
+      nSubscript = 1
+      // Browse the results and refresh the return string
+      FOR EACH string sATempInfo of sStringTempInfo SEPARATED BY CR
+      	
+      	IF ExtractString(sATempInfo, 1) <> "" THEN
+      		
+      		// Refresh the return string
+      		sAnalyzeString += StringBuild("%1°) %2 (%3)", nSubscript, ExtractString(sATempInfo, 1), (ExtractString(sATempInfo, 2) = EOT ? "n/a" ELSE ExtractString(sATempInfo, 2)))
+      		sAnalyzeString += CR + CR
+      		
+      		nSubscript++
+      	END	
+      	
+      END
+      
+      RESULT sAnalyzeString
+     type : 458752
+   -
+     name : InfoDiskDrives
+     internal_properties : CAAAAAgAAABy/b6Yg3+AWcj4B8lWxDvOMUZ2Ol7xhQYC1KxhmTLi87zRW5IpLKDBEnqmkD4o+V7yws7jLrjtY3q2NbYkJrz5KVL4pHgQn6YwSPKvF+xz4IFuXiBQZQoZ54znb6o/54Ym/R7+N5hkH2PWIWqTk96DPHrwkY+wU+jj0B8TSMgAbS3nny1OGRgF89i6as+zVsQXTO+OgQo=
+     procedure_id : 1760453072552045793
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] InfoDiskDrives ()
+      //
+      // This procedure is used to retrieve and lay out the information about the drives installed on the computer
+      // It returns a string formatted for the display in the example
+      
+      PROCEDURE InfoDiskDrives()
+      
+      
+      sStringTempInfo is string
+      sAnalyzeString is string
+      sATempInfo is string
+      
+      sStringTempInfo = GetDriveInfo()
+      // Drive Letter + TAB + Description +TAB + Volume Name + TAB + File System + TAB + Total Space + TAB +
+      //  Available Space + TAB + Provider Name
+      
+      
+      // Title of the part
+      sAnalyzeString += CR + TAB +<§$0002§>
+      sAnalyzeString += CR + CR
+      
+      // Browse the return string to retrieve the information about the different disks
+      FOR EACH string sATempInfo of sStringTempInfo SEPARATED BY CR
+      	IF ExtractString(sATempInfo, 1) <> "" THEN 
+      		
+      		// Retrieve the description and the letter of the drive as well as the volume name
+      		sAnalyzeString += StringBuild(<§$0003§>, ExtractString(sATempInfo, 2), ExtractString(sATempInfo, 1), "[" + (ExtractString(sATempInfo, 3) = EOT ? "n/a" ELSE ExtractString(sATempInfo, 3)) +"]")
+      		
+      		// Retrieve the free size and the total size
+      		IF NOT (NoSpace(ExtractString(sATempInfo, 6)) IN ("", EOT)) THEN
+      			sAnalyzeString += TAB
+      			sAnalyzeString += StringBuild(<§$0006§>, LengthToString(ExtractString(sATempInfo, 6)), LengthToString((ExtractString(sATempInfo, 5))))
+      		END
+      		
+      		sAnalyzeString += CR
+      		// Retrieve the UNC path (network drive)
+      		IF NOT (NoSpace(ExtractString(sATempInfo, 7)) IN ("", EOT)) THEN
+      			
+      			sAnalyzeString += StringBuild(<§$0007§>, (ExtractString(sATempInfo, 7) = 0 ? "n/a" ELSE ExtractString(sATempInfo, 7)))	
+      			sAnalyzeString += CR 
+      		END
+      	END
+      	
+      	sAnalyzeString += CR 
+      END
+      
+      
+      RESULT sAnalyzeString
+     type : 458752
+   -
+     name : InfoShares
+     procedure_id : 1760453072552111329
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] InfoShares ()
+      //
+      // This procedure is used to retrieve and lay out the information about the shares
+      // It returns a string formatted for the display in the example
+      
+      PROCEDURE InfoShares()
+      
+      
+      
+      sStringTempInfo is string
+      sAnalyzeString is string
+      sATempInfo is string
+      
+      sStringTempInfo = GetShares()
+      // 	string: Caption + TAB + Description + TAB + MAC Address + TAB + DNS Name
+      
+      // Title of the part
+      sAnalyzeString += CR + TAB + <§$0008§>
+      sAnalyzeString += CR + CR
+      
+      // Browse the results and refresh the return string
+      FOR EACH string sATempInfo of sStringTempInfo SEPARATED BY CR
+      	IF NoSpace(ExtractString(sATempInfo, 1)) <> "" THEN
+      		
+      		// Refresh the return string
+      		sAnalyzeString += StringBuild(<§$0009§>, ExtractString(sATempInfo, 1), ExtractString(sATempInfo, 2))
+      		sAnalyzeString += CR
+      		sAnalyzeString += StringBuild(<§$000a§>, (ExtractString(sATempInfo, 3) = EOT ? "n/a" ELSE ExtractString(sATempInfo, 3)))
+      		sAnalyzeString += CR + CR
+      		
+      	END	
+      END
+      
+      
+      RESULT sAnalyzeString
+     type : 458752
+   -
+     name : InfoNetwork
+     procedure_id : 1760453072552176865
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] InfoNetwork ()
+      //
+      // This procedure is used to retrieve and lay out the information about the network
+      // It returns a string formatted for the display in the example
+      
+      PROCEDURE InfoNetwork()
+      
+      sStringTempInfo is string
+      sAnalyzeString is string
+      sATempInfo is string
+      
+      sStringTempInfo = GetNetworkInfo()
+      // 	string: Caption + TAB + Description + TAB + MAC Address + TAB + DNS Name
+      
+      // Title of the part
+      sAnalyzeString += CR + TAB + <§$000b§>
+      sAnalyzeString += CR + CR
+      
+      // Browse the results and refresh the return string
+      FOR EACH string sATempInfo of sStringTempInfo SEPARATED BY CR
+      	IF NoSpace(ExtractString(sATempInfo, 1)) <> "" THEN
+      		
+      		// Refresh the return string
+      		sAnalyzeString += StringBuild(<§$000c§>, ExtractString(sATempInfo, 1), ExtractString(sATempInfo, 2))
+      		sAnalyzeString += CR
+      		IF NOT (NoSpace(ExtractString(sATempInfo, 3)) IN ("",EOT)) THEN
+      			sAnalyzeString += StringBuild(<§$000d§>, ExtractString(sATempInfo, 3))
+      			sAnalyzeString += CR
+      		END
+      		IF NOT (NoSpace(ExtractString(sATempInfo, 4)) IN ("",EOT)) THEN
+      			sAnalyzeString += StringBuild(<§$000e§>, (ExtractString(sATempInfo, 4) = 0 ? "n/a" ELSE ExtractString(sATempInfo, 4)))
+      			sAnalyzeString += CR + CR
+      		END
+      		
+      	END	
+      END
+      
+      RESULT sAnalyzeString
+     type : 458752
+   -
+     name : InfoOperatingSystem
+     procedure_id : 1760453072552242401
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] InfoOperatingSystem ()
+      //
+      // This procedure is used to retrieve and lay out the information about the operating system
+      // It returns a string formatted for the display in the example
+      
+      PROCEDURE InfoOperatingSystem()
+      
+      sStringTempInfo is string
+      sAnalyzeString is string
+      
+      
+      sStringTempInfo = GetInfoOS()
+      // 	string: Name of Operating System +TAB + Service Pack + TAB + Official Version + TAB + Serial Number + TAB + Setup Path + TAB 
+      // 			+ Setup DateTime + TAB + Reboot DateTime + TAB + Current User + TAB
+      
+      IF sStringTempInfo = "" THEN RESULT ""
+      
+      
+      // Title of the part
+      sAnalyzeString += CR + TAB + <§$000f§>
+      sAnalyzeString += CR + CR
+      
+      // Update the information
+      
+      // Full caption of the operating system
+      sAnalyzeString += StringBuild(<§$0010§>, ExtractString(sStringTempInfo, 1), ExtractString(sStringTempInfo, 2))
+      sAnalyzeString += CR 
+      
+      // Version
+      sAnalyzeString += StringBuild(<§$0011§>, ExtractString(sStringTempInfo, 3))
+      sAnalyzeString += CR
+      
+      // Serial number
+      sAnalyzeString += StringBuild(<§$0012§>, ExtractString(sStringTempInfo, 4))
+      sAnalyzeString += CR 
+      
+      // Setup path
+      sAnalyzeString += StringBuild(<§$0013§>, ExtractString(sStringTempInfo, 5))
+      sAnalyzeString += CR 
+      
+      // Setup Date
+      sAnalyzeString += StringBuild(<§$0014§>, DateToString(ExtractString(sStringTempInfo, 6)[[ TO 8]], <§$0015§>),...
+      TimeToString(ExtractString(sStringTempInfo,6)[[9 TO]],<§$0016§>))
+      sAnalyzeString += CR 
+      
+      // Reboot Date
+      sAnalyzeString += StringBuild(<§$0017§>, DateToString(ExtractString(sStringTempInfo, 7)[[ TO 8]], <§$0015§>),...
+      TimeToString(ExtractString(sStringTempInfo,7)[[9 TO]],<§$0016§>))
+      sAnalyzeString += CR
+      
+      // Current user
+      sAnalyzeString += StringBuild(<§$0018§>, ExtractString(sStringTempInfo, 8))
+      sAnalyzeString += CR
+      
+      
+      RESULT sAnalyzeString
+     type : 458752
+   -
+     name : InfoUsers
+     procedure_id : 1760453072552307937
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] InfoUsers ()
+      //
+      // This procedure is used to retrieve and lay out the information about the users
+      // It returns a string formatted for the display in the example
+      
+      PROCEDURE InfoUsers()
+      
+      
+      nSubscript is int
+      sStringTempInfo is string
+      sAnalyzeString is string
+      sATempInfo is string
+      
+      sStringTempInfo = GetUserInfo()
+      // 	string: Caption + TAB + Description + TAB + MAC Address + TAB + DNS Name
+      
+      // Title of the part
+      sAnalyzeString += CR + TAB + <§$0019§>
+      sAnalyzeString += CR + CR
+      
+      // Browse the results and refresh the return string
+      nSubscript = 1
+      FOR EACH string sATempInfo of sStringTempInfo SEPARATED BY CR
+      	
+      	IF NoSpace(ExtractString(sATempInfo, 1)) <> "" THEN
+      		// Refresh the return string
+      		sAnalyzeString += StringBuild("%1°) %2 (%3)", nSubscript, ExtractString(sATempInfo, 1), (ExtractString(sATempInfo, 2) = EOT ? "n/a" ELSE ExtractString(sATempInfo,2)))
+      		sAnalyzeString += CR + CR
+      		nSubscript ++
+      	END
+      	
+      END
+      
+      
+      RESULT sAnalyzeString
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADRyWK9ogG+dcMlMpV7lXuGKtFFltimx5UBTQKREKG6VvwsKQxVApUCM1Cr/T3VTcss1w4YaUHKdbDZpQdoxSrsid0lL0v6GJE+/mkO2fPQlmiFKx8NZEk6n6+eEUFk
+  original_name : FenSimple
+resources :
+ string_res :
+  identifier : 0x120cbfb4005f4640
+  internal_properties : CAAAAAgAAACEhmnRXblLR+VgBuQo4ey1su6CJ1Xxia2W0XPeqFH+dtrYdC2UPuvKFWlCmJHtvDOTkw==
+  strings :
+   -
+     text :
+      en-GB : E - Local groups
+     index : 0
+   -
+     text :
+      en-GB : "%1°) %2 (%3)"
+     index : 1
+   -
+     text :
+      en-GB : B - Drives
+     index : 2
+   -
+     text :
+      en-GB : "- %1 (%2 %3)"
+     index : 3
+   -
+     text :
+      en-GB : "["
+     index : 4
+   -
+     text :
+      en-GB : "]"
+     index : 5
+   -
+     text :
+      en-GB : "---- Free space: %1/%2 "
+     index : 6
+   -
+     text :
+      en-GB : "- Path of Network Drive: <%1>"
+     index : 7
+   -
+     text :
+      en-GB : C - Shares
+     index : 8
+   -
+     text :
+      en-GB : Name of %1 share (%2)
+     index : 9
+   -
+     text :
+      en-GB : "Path of the share: %1"
+     index : 10
+   -
+     text :
+      en-GB : D - Network devices
+     index : 11
+   -
+     text :
+      en-GB : "%1 device: %2"
+     index : 12
+   -
+     text :
+      en-GB : "MAC Address: %1"
+     index : 13
+   -
+     text :
+      en-GB : "Name of DSN Resolution: %1"
+     index : 14
+   -
+     text :
+      en-GB : A - Operating system
+     index : 15
+   -
+     text :
+      en-GB : "- System: %1 %2"
+     index : 16
+   -
+     text :
+      en-GB : "- Version: %1"
+     index : 17
+   -
+     text :
+      en-GB : "- Serial Number: %1"
+     index : 18
+   -
+     text :
+      en-GB : "- Setup Directory: %1"
+     index : 19
+   -
+     text :
+      en-GB : "- Setup Date: %1 at %2"
+     index : 20
+   -
+     text :
+      en-GB : MM/DD/YYYY
+     index : 21
+   -
+     text :
+      en-GB : "HH:MM"
+     index : 22
+   -
+     text :
+      en-GB : "- Start date: %1 at %2"
+     index : 23
+   -
+     text :
+      en-GB : "- Registered user: %1"
+     index : 24
+   -
+     text :
+      en-GB : F - Local users
+     index : 25
+   -
+     text :
+      en-GB : \\
+     index : 26
+   -
+     text :
+      en-GB : "INFORMATION ABOUT THE COMPUTER: %1"
+     index : 27
+   -
+     text :
+      en-GB : Select the destination file of information
+     index : 28
+   -
+     text :
+      en-GB : Text files
+     index : 29
+   -
+     text :
+      en-GB : "*.txt"
+     index : 30
+   -
+     text :
+      en-GB : All files (*.*)
+     index : 31
+   -
+     text :
+      en-GB : "*.*"
+     index : 32
+   -
+     text :
+      en-GB : .txt
+     index : 33
+   -
+     text :
+      en-GB : Do you want to open the created file?
+     index : 34
+   -
+     text :
+      en-GB : "INFORMATION ABOUT THE COMPUTER: %1"
+     index : 35
+   -
+     text :
+      en-GB : "INFORMATION ABOUT THE COMPUTER: %1"
+     index : 36
+   -
+     text :
+      en-GB : "INFORMATION ABOUT THE COMPUTER: %1"
+     index : 37
+   -
+     text :
+      en-GB : "INFORMATION ABOUT THE COMPUTER: %1"
+     index : 38
+   -
+     text :
+      en-GB : "INFORMATION ABOUT THE COMPUTER: %1"
+     index : 39
+   -
+     text :
+      en-GB : "INFORMATION ABOUT THE COMPUTER: %1"
+     index : 40
+   -
+     text :
+      en-GB : "INFORMATION ABOUT THE COMPUTER: %1"
+     index : 41
+   -
+     text :
+      en-GB : "INFORMATION ABOUT THE COMPUTER: %1"
+     index : 42
+   -
+     text :
+      en-GB : "INFORMATION ABOUT THE COMPUTER: %1"
+     index : 43
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Simple.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

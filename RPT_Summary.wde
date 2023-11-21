@@ -1,0 +1,128 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : RPT_Summary
+ major_version : 28
+ minor_version : 0
+ type : 3
+ description : ""
+ subtype : 0
+report :
+ identifier : 0x5873718502cc286f
+ internal_properties : CAAAAAgAAADPFPO5t8XXziJLfbYNGAH0F+qJSaQqkBSop6WwuwL8nHrJaWkiZBlLzhacpeDmkXGCm+ukEi+DaUM4PvNBazJ4EzfEAdhqhyqsq+xti5agroO0VtQH3iXdTPr5xBy2IdJ/TgXSXbswHHs1qGEFaNyUiFy8/OBCMaROMdrC9xJUNnZJ0DWreeqFYyJjyRCIYqo8SW9QFJTl81jCvyxENzA9q/mlNRLOtOkGPFGn3z7GKP6gHkWLgGbUqLmPHIPtYqoBiZrYFmpwHZvLpG/qavD4ON7gT2Nc+Tz8kdXhbm/4FnY755E9a8Ppkpbad2oXI3DrPN6jd/LTAhyx/9Hy8PyNUcudg1xCiW527Rs+3/xEPWX/HLAdr3Q0R+DBdOoRZsWGomGzdUl/bWqGZyf7g4sNcBMfIeFya7GEXZLAdKEjffstd49CPu9cQFsuRHfKWtALlAp1A7IttQNmC04ce90dPWJMwNIlhGjwuBlOEBkwhnOq6GfAmAV9RkpQ26OVA2ZthHLEdY8yOUyifVHfyT4uwUO4qPeMcG5kvZSo0N9ph9iCW7nis9+4LzZzE6limBIFXuyDxJfuONp0fMAK3T1TP3eVDtGRB4fb0u2Hdy9hd0hjzuZmYUzBTEUfuOpKXnTV/XMevfw+ZYXmEw7P0Jpo23z0YDqEBw97jklPYOISQnYK+ZgFKlQ1+qGLIz2ZTZ2gH4gYlwdREppUc/GfVJaMcZcKcrnH0hScQ9n7aGR0PguVGHNw+WbZQ0ui6uZuIkkrQ14LKKM=
+ languages :
+  - en-GB
+ blocks :
+  -
+    name : START_OF_DOCUMENT
+    identifier : 0x5873718502cd286f
+    internal_properties : CAAAAAgAAAC7T4f24S9H+CF3eONGWkKlS9bFE2wx/dqOOZJ/LrhppLZBsekQQ/ekmK+GwpAws+3RsqoAPbF+/L6HHo/S1WCUZn+pu0GBPWlf20Pk+txLTSh2ZO6ZWFLjSaWpKnyFrNHPw4WBv6K4QnT4ajDNQWPVIQSrUpq2RePB+iaN7R97PQl/18kbsX141kl5wBAQTtId77E75cDLUwpV7PkkSFPwcwRMqg3E7NxUjZgZzfQ5pUWjrE9fgOvb90b6Wnhq9I4m8D7l7lKn3yTGrSwX2osr1VRxxCIPslVnFuejKTTqFKv2G3Pe4PDWV9Dn/A==
+    controls :
+     -
+       name : STC_TITLE
+       identifier : 0x5873718502ce286f
+       internal_properties : CAAAAAgAAAA9xxV/7b87AgPwN27qt5aJEBwiGsYjNIw0Bk1ovTRhu3GAiQ6RBf+yXEgoWsUVYXkcMOd05dCvwXN0YMK79jk1oiM15GhVrA3iizjH88+wlzOLGUwaJZiUe17vyKW4idGqIOHhUMd/QI3zCBUvoaP4HyUwpg+l7kJ+VYX/ZoMJVfRuJWaZvX/T5+fMHI/Zm0gW7wcDnzh+W0VRq5LoobSWM4JzH6SyDJ/vSBrdBX/ClKcPpIsHrzhu7xtO4lrRSKglRcumA/cU8/z6LWCGbkpkXzBMN9g0bO/c5Vz7UHyS5rG+fQ5aa6crfaV6z2ympZM1OUlz/+wKh6/1xtb/vD++pKiaKVbi2Aqw3LPZJG0vbaD+azyKsg++j76xtUGtfXJmvw91maR0RrYjNhz+AnokntjKabVN3DznWCff3DH/EpxRmvdE8MDObSGKw8xFz37oXYVmqohIwtwqogK3cuZ/R8Wg49o8yhIz9J92jfT5w4W8/z8gXi1+TvwZWXKa0ygsJL4KKV+k
+       properties :
+        width : 169.706
+        height : 10.162
+       code_elements :
+        type_code : 29
+        p_codes : []
+    properties :
+     width : 170.
+     height : 10.162
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+  -
+    name : PAGE_HEADER
+    identifier : 0x5873718502cf286f
+    internal_properties : CAAAAAgAAAAPTmHgl/5sioWpkpGH+zDuc0W1a0HLr4eU0EUnLxDrMUrX72Y6pDZHHJlCnxsCr7NPvVK1OsEpWNU95qyqgaN129G+ROX3gtFP8sA53qIvO0o1nuTHhWjPDcIah0iSp1rSICboSM9Oq2IuPc3hP7DoXV5LNzBG5mOuYHumbYqphMH0/eGqLVLdGv/iUyLoUnZweKLSi4sargXhPIPH715WHScS/N2OKHyj6SxZOyecJI+b71CrlkEwMLIJGDVBL56G6Ps7hE3hz+OJ3aF/NbHYxjv/8rItmo1n
+    properties :
+     y : 10.162
+     width : 170.
+     height : 10.
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+  -
+    name : BODY
+    identifier : 0x5873718502d0286f
+    internal_properties : CAAAAAgAAACmtcBpQGiDa88UG5QvYTtLbAVk/I+9Ow1j6RyamsCP5YbEzqoU+tZdZ2rl1taSng6euk/NxmijMGJoQhtf43WqShFUcjpYqEksRUY4QeNO10ko9wSeq/Gz+CwQ13zJizMTLHZVSHjEVcTp2Iq7b06j+rxVpL6+Qg6dng2GnKxQVOy3COdPJctbTHmG7JiUdE6lR6p3Qwl6KbnxSZt9uij98PSP2PNBYlu6CZsc0azV2xrPGpLUaaEOzLd5OIllaTtfFJuBJR85/s2g9uYFgg==
+    controls :
+     -
+       name : STC_SUMMARY
+       identifier : 0x5873718502d1286f
+       internal_properties : CAAAAAgAAAB15sHpf+Fv/tl1PuWOwaaWUbH7JN4d0CM4pDsc9vW5bX4B2eQvqKyfGQfRDPA0XVhKG6I8MQNdGzSV3N744FMHG9VCQ7iLDpe95jXrM7qfaNkx7T4CwZpPofQSI/EauNUrTyj+/qG1r4x/fUdoTiFe58Q2meT+sV8DcBErYLaiuQy4Tnuur6sA7jGKhfd63W/YB1fGL6ESY+brV3mPzrHG6NumjDYVcWEsByuL4UGelUhoCZ9V6Qv9ySQNVdShYAVL/QPiNe9XeGI2vVgeFDoAjf7EeqzHiQATtqffpMMOZia4kWoGig+7xsA2DZYNEmdt+rpoW7VmyCUMZG4yt0nvKfNRmFf/MwJ55J0FZ4br/eAlrsCTP4Fxeh6WSUWYbK1+scDfku9K3z37/S7JsR00A04Q/CeyaI/CfuQVGoLcy2neDQI5v2F2O9bDrJSj7unx2hl5n/RwHuM48My5Phs3WUjE7ko=
+       properties :
+        width : 169.706
+        height : 9.315
+       code_elements :
+        type_code : 29
+        p_codes : []
+    properties :
+     y : 20.162
+     width : 170.
+     height : 10.
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+  -
+    name : PAGE_FOOTER
+    identifier : 0x5873718502d2286f
+    internal_properties : CAAAAAgAAACBDjQPR/nyPtsFdCbfihJQmO6NdXa8N4xS46BG6IoQ1BI6AjEUJgRmQY2OupwBmvp9tKEkaE1bQm08S4vhlJaZI1Ai/CD1pBI34f9YoEpUeGkvtjOtZILH5T2KP4zzUua+SQVcp8FeAg5cz5aJ1zWtAzVOQrfW3Y2rVUwgjX/37vj5hphd2a2f9TKxIXoN9l20hLi2Q0P4ENpslfF7vlA0sN5VT/TO0awArAvbE1qCmvxk1PmI2gHLbiLFYDJ5ZdkoEL9jNsftJKcdekcmmgCcihtaYy6tCg==
+    properties :
+     y : 30.162
+     width : 170.
+     height : 10.
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+  -
+    name : END_OF_DOCUMENT
+    identifier : 0x5873718502d3286f
+    internal_properties : CAAAAAgAAABCxpPsy82fgRsTy2DR+wBlPunGFcE32wJD4jQzz53BA7B1cl8LG1Jw4p/Kkcp4b7hx2oIo/GmUoZ14bb0bYYV9LAMoOHFMJ7xN8pODwt7fqgWox9ZmzV1JBBiZIKdUir+x2ZPjevyOrhFeKo4XfXmWXqZeZahx8YIApM4j2F1E0XNcmZTyqxFpRfIwfUdmKdcesO6B7u2kHKLmkYbKOAYzo/5Ql23yHbGjuXuPHQMq/2AoWL7Out3Fdj7sWQNxGzt2jEh56hKUuDQ14M+89jDbBzijzxSjRdcAXXi8iRAm4XnRtjz87Ky6ouTHgBRFsw==
+    properties :
+     y : 40.162
+     width : 170.
+     height : 10.
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+ controls : []
+ code_elements :
+  internal_properties : CAAAAAgAAADwB2cEp3EGGMkAnoNvDyqcUmy9H28qOuVZUoa8fYHQy/ljGCTncqeplEfxfzU/8WBgqKeTrSGIPbLMkK2sV+8d9UuHb8s=
+  type_code : 13
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE RPT_Summary(gsServer is string, gsSummary is string)
+      
+      STC_TITLE = StringBuild(STC_TITLE, gsServer)
+      STC_SUMMARY = gsSummary
+     type : 327680
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  integrate_compiled_code : true
+  original_name : EtatRésume
+resources :
+ string_res :
+  identifier : 0x12107d4e015e5dd4
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

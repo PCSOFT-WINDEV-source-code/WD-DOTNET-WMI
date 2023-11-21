@@ -1,0 +1,1327 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Advanced
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Advanced
+ identifier : 0x286e62ba0a4f9e2b
+ internal_properties : CAAAAAgAAAAEUACmo9aqhBrK82PQLOxo0tK6Q4F69Soyrn9RTbhWhyp0ubf7vDlnbu8Bp9c6mVzFNhCaotikRd04oBUFXQUndfpSFGPkqgjGXQewk+nuPf7aGl0c97Rwex6GZsVffkf7xyNps7PgY38JAMzjsnQIa6dXcl4Ul2Gf6MnFjiaCKtIz1tgNCWECaQWgZrUvPIGfwte7CW9GXOWG8DDBNfcfmY+cMBWqFtvOzQ64//A0iP4Y9CLxKzSA8+pN0HI2kWbTPlexjZVkXNdpzOx7jFSTVsabgkLLRdHUkHXVnWZnl6tCzc69zga8CLFFGLQpdDR55ii98YD6hK0AA8s7O5KWf6omdlOKx0mvpslHNrw9b1JNyJXVewpV+tn8XoGkH/liKK6oUpIrhjzQMUfg7DA26fbLuedNtBTUBf6MWeUzdkGQP/IOEQLtxujLZgmQJ4zO88Q96nhlIZ7wQjXU38i1QqhlMw0PYXgBtS98jD/d9GeGKT0e9fe16egeR5898px2xbICuDXBCcUMwqJxmB7VZtLvuxdIsxfa7o9JBWXqExp3uAm/90NyMzW1CT6JTyhU7Lwz6WFxIsT22ZF3xAI9Z1ZXdnc0sTapwGsKk6iNbUms7Y+guQsSujV6CN6nc3wOoKIfcwyCZZkbHrXQDN9chPpuj0nCTRMTyiokR6axgRxEN1SJkaIoaZBQRQ+GmAc2vycQFm0WWcnvjxUNwMRW6Pu2Q+RV/5UqWZqgd3E8l3sb1OGzFTmCYRlPSX1A1RrjNv/auKb50l/xRdvAnqLN1xZJBD0hZUp1Qns7i6QcMOQAwj0uklncMUYXdZ0=
+ properties :
+  width : 998
+  height : 610
+  widthClient : 996
+  heightClient : 578
+ controls :
+  -
+    name : TREE_NAMESPACE
+    identifier : 0x286e62ba0a509e2b
+    internal_properties : CAAAAAgAAADR4+ve/oq/IgKhxy1hRu40xi888gkWK+AXceSI8ZOL9PCJR9e/3x8w7EBfs4gxxJWiTJ+RDrqRb0nBM5bXBoh7A7/ntw2DQccjhlaXk34qWWNCOBbaHhXYKCGpXiI0+kKqSJfW1V49VMd8kG6zhenubB1uyVTPXEIz2jybPFxNXnkkq36UZuMoxxhhNQ3rfmZc2WmTg9gZ+MdrFMp/Y5qhP6z2kzz1lvgVRs1xYlXPUGp8m7t+ap0Hd1Y/oSlTwXUliwjMj52QT3tVbI/ypwnSy5dhH//QizAiuMhNyQIG2bOGF8LJVGYawUZK2NUHcsmCsMmjVb7PBxwNTVO7OzTkS/4NTVhfwaSWuvInphXU4W31U1Ohlf3S77C6KymJJ0JB18BTJCm8ycg2mGbd7n0+7wTC6uG4rLKtog+waRNaIJDQwZLn6CnFHTKE5O8q6qQ4dwlrlbc0x/LphP7nQfXd6dJ70fRGPV9gdP143CF8HxvISNQE3mKsPsCE8VWtJgFlwh3VTrDtYSgJbPESfWqHuagnrNK3sltRpNjGArbAJ46SK3feTK7CvxzSCf9J+fOIYunK36JqH6T0mWfX3Bb/oj5GTuDPVeu6dudljLQKAvLA3ukwu3FQyeA7vnL0e23Ds/L9yuO95p+FJXqXjsh592uvkme+gtUEIiR9see1PRd2t4ECLFWRpoyMwZApMlxZDk4qQ+pCarvMPJvRFJPAhnSu6L5pVvz+sD1ejtmkhNTJdWtB6Bctn9F/Od9ZQUo6l6MzJdzjnelW5SNFxCTf5FxJ/1RJcnlhARucAbI5DMMf6qTkNnhj45XCJzUrDNonBYVIQdyaK4T8ccqK/U2VaOkPotcirrx8LROLgFmfYE4J892W7q+WXd/KXMmJbDoPdJO4p46eC4MKat4eeVDA/idQJXMXbv407dgxiDK7rCoe/gDSlXEx5Sauu9AhYTjwqGcHU3oKNKdfjbYpy704zX3XQ7B1/SgzBcSX1U+nGSD+fqlHXxskCFR+awfgQR0SrVxKbIBLahN4EMrK/l1sKSspc2DmNm7OuPUeHt/FUdqA1UxxEmTq+pV9NzQrGRuz906EtdoBzQIi6QJsCOUiO2H1iyoXfbWYHgV0PY0aBm1JcE7izEPFXb2nI17nPS5KHEDt+AGSEJ+4mA4pbnUCERkO4Ui0rg9+8MW8akNshbo+FXDddQ7OCoYGVZUn1Ky59iWikfMiGXj60Ri/EIp/0p8z1XtfKvn4WMjo7NACc0sX1OX8XwjpogU9gCjb3EhXmQOHyEZTd/cWiCwG0okn1UyO3+bzH0x/a2GMpK/4joGdyDo9weR+Dhql7RbME76oizUBfjZqwpnDEMWvOBtjRTJU/UPNyjoQMl1adXLJSNVF/WlL248c9+MN4kGSLjRfiWZlqxqREGjxidFjcR32k7prL8RKOBB/klNtKOQx7sYzpBM5ePTc8xnuGdM16VNEAw9vWyG0zO7K/9jNhO/MTQ==
+    properties :
+     x : 6
+     y : 189
+     width : 171
+     height : 349
+    type : 19
+    code_elements :
+     type_code : 25
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        internal_properties : CAAAAAgAAAC1K+gvWnpPyNCjs27d9qpjoFgLPinyGAX8HyLBG/IIH3uFOcivu+LC7Ww+MOQ4yhWeXKZFWmfhGtCZvc25KlBDV0ttMnlk9A2hCXssMOQJpmz96+wKo9wgmstBt2fe7IlPBVGk/n3Wum5EdQLnKrUqJ9GC9KO+mixz3s5a/gwd8w8ZArGHGdCf37fPb6A4oq0a60qvjZfJV/L8QwZUfw==
+        code : |1+
+         // Retrieve the node clicked by the user
+         sNode is string = TreeInfoXY(TREE_NAMESPACE, treeBranchName, MouseXPos, MouseYPos)
+         
+         // If this node corresponds to a "Not Loaded" child, 
+         IF TreeStatus(TREE_NAMESPACE, sNode + TAB + <§$0004§>) <> tvError THEN
+         	HourGlass(True)
+         	// load the children of the selected node
+         	GetNameSpace(TREE_NAMESPACE..Name, TreeIdentifier(TREE_NAMESPACE, sNode), sNode + TAB)
+         	
+         	// Selects the node
+         	TreeSelectPlus(MySelf, sNode)
+         	
+         	// Fills the properties
+         	ExecuteProcess(TREE_NAMESPACE, trtSelection)
+         	HourGlass(False)
+         	
+         END
+        type : 18
+      -
+        type : 19
+        enabled : false
+      -
+        type : 20
+        enabled : false
+      -
+        internal_properties : CAAAAAgAAABpS3y3Z3xlBpEaVxiEDw5fGWvu3BZ3BzOhmJOeGLXpMSv+oACNKj0RUpmPhhQq45yp3FgEJgr1KfFgS3wxD/tXPjY3WipH17mb9WWTn+ndJSR+5+6DWgmIS0sYs7BY2MPCXsJIZ6UQLCK0VQ4=
+        code : |1+
+         // Deletes all the existing classes
+         TreeDeleteAll(TREE_CLASSES)
+         HourGlass(True)
+         // Retrieve the classes corresponding to the selected namespace
+         GetClasses(TREE_CLASSES..Name, TreeIdentifier(MySelf, TreeSelect(MySelf)), <§$001a§> + TAB )
+         
+         HourGlass(False)
+         TreeExpand(TREE_CLASSES,<§$001a§>)
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : TABLE_Property
+    identifier : 0x286e62ba0a519e2b
+    internal_properties : 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
+    properties :
+     x : 430
+     y : 189
+     width : 560
+     height : 349
+    columns :
+     -
+       name : COL_Image
+       identifier : 0x286e62ba0a529e2b
+       internal_properties : CAAAAAgAAAAnVpw2IURhxRF49fgiCooSEprz9VRh3wYruEQJPJQiCyJRju0+mmbhQs2efFSHF+aiPp+Oc5AVbWiZqsCFoxTvG0KE9chYxIxS+kTTizk3cqqD+Qn7458Bln99xsNLUZ9OgKARj+OYgiPkTZCxQ22YvCJe0ymY9Uvy0jTGvA/JynlF/9WQuc+ZJO5NYUx9jheytg==
+       type : 8
+       content :
+        internal_properties : CAAAAAgAAAACRBVGriDrIJUqaXOxQinjF81d2KmcRP59MS5QGUg4fdeeTCj4Nzpcq7bIoWjDB0UvyDOXb2gJf+NPtmRDyNe2GfAFh82sUOO5oQfH/A3sPNoB0JXrXFKAj/5nr0fqAxUsXY/eikQSdk8WipAA0EM7DPs9L787uWM3zCAjkoT/jaqI28UeiiwY1P56oQaqKIojQomOmA6d3UsfoVaJuG3Ty8hr94610O6Or1XYTpzLVEYhfvXu1w3OztT7P2jx6C4lbAAcyKHifm/3GvX/ooJTIf0MlQ0bUPbO1g6aDBDWeNjmtEb761Ixqs7XG0Kd6xOQOVUxu2IMvNwhu4PmjDjVH2eX7H+WOuEfeaLbs5YQR/l5GT84m0RDszNJIUuk5Aqgf4T095gVPNOLaP92B+7MnswYwqufSkluCdTD
+        type : 8
+       code_elements :
+        internal_properties : CAAAAAgAAAAgOdREtVuUSUdy2h+IDSzzYjTqvyPpMc/DvI7U+bJ4FD+A9/fksYeggLvDIvvGRMpoTwySdw4l9DfuukWYxBP17qMehYMWd4s4Kd2onzZQlVp/37wcOqQAhtBw1LTU30CQ4pXG8b8MYRsCMuJzN2CjCu6+QmjrA2c6j4nHLIOD/aD7D4UZjelo
+        type_code : 8
+        p_codes :
+         -
+           type : 41
+     -
+       name : COL_Name
+       identifier : 0x286e62ba0a539e2b
+       internal_properties : CAAAAAgAAACZfxUG8Wb55TUqQqhkeXdVS1HD0V4IjMhD1Cy1J57rcE5jhIDahqjqEQmeG9wgk1RCy0nWGJwcb0Fe+Xu4l4hdjf4rA36TZc1cLjrPRPeQtI2fr61vKnxXhR/fevXz8W/gT3JGgMidZakyyx65U6uXgA5OZrAfEUdFu4q273lqZu/bcCKB5uo9Rgze8BkGmH545DUw0FzUYY8QNsIIqw==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAACB1b1RhFFh/xfS9BxuGnHD64tvosclBdhqwh0T0AbcOVxTGirPAOKsQoZf2qicthn4eO7SSd4+dMD6tJWzihSxG8RZIz70P2L3qFuNo3RHUPxxc3Xt25iGXDTqkx11x/+AjNu8uUm2p6MWWxPf3+YM4n8H/RgQfQSoihuHwFq91bC908RDfk0Yr2eLDvpuYD8L1v29EfVFVzDz4h+r7xFzcyhfoip1FYSXQvSdcJ7HnQ4k7O9fhnqYyvD9Eptk+zQJ9rUhqFaW8icJszVxSsux9Boj39W1jvWR6LupSUmylEHLD0s/JFoUWcKI8slk9mbPM+tJZGvnhuntLEx/VNAQZ4R9jsoDTYHzAiHaZGbW0ij4B2Y5GCNOx0pxnlaIkfrTEYbOjp8iwfljmJUqmNxlXAJqo6X3eyeJDr0pK5Yw1dSdt+ACZLNRUPGT4vcwWi8IO26rzuyjRabuwBpSFoiz7Lrb13max+CT6BTEhkBchUeTvZ52TjCsfkqW4zpJFWtkTqILniclPuN1hqku+g/aZREm5RwVSmRghl1/8jwhFnhYTnkM/YnyeJKv6vZinS/kfaopa/o6NnjMsdMo6FWejevqDJHCrxUwJu8a7RZlwJMXlAOFPpYD/j9QexAwmfJTaX+mmG9XeWKGrcUwu8zV2ViWi2Uhnoc5aykHTbsyLgMO5EEyeAGQaM4DuReNNnSGWYw6Ef/QsLvzPjzjEOrGAvgkN5WFU/BxzbdyBavsbZVN03UlP2n+ow7Qv+wgXHhz1BNhLAjgIxujs8wD8fH2OHVU6pB6w7GZbcHQ+bkW7Iel0toxLj1/EYfzkgkSZUf+WlVo5KO7bZxS4474DJYx8BiLPXT2yfwgjoPlfitaaB95/LWDixa26j1TphPit73X+8xHJ92YvPX+QsShYa51ONqpbgpyh1eHGJhQ3W6pIvyF2laMqyeTeg4RysTf0vbn6+sooFINBUco8dZzpnXkmSbaz1KgncOp
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAABVjZviBxb9ys0/B8xRXINI1qS0A9Ck17INbxELfNGscFlT3m+RWT2acxCDhjuuDBx7TyfTcNP73vI20//KrjoFhTYnpo=
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : COL_Type
+       identifier : 0x286e62ba0a549e2b
+       internal_properties : CAAAAAgAAAB2k+QCL8wzu+yePEugU8dbLIYBxv9kpQjUkSfLeUhnZRKXSSem5o7+96COTlf0B+XhyOS7Xj0KQHhlomkFD/D9SD6XfKB5FXAZht3XDOO72t8b3EHpQ7KI5NJlpBUnDyh4OE70hjwEKvU8Pk6m2u+MOigUn9Pf6VGf7/V4l4fw4NOKV1L+6k3rjYyMwhNag5xL0FCLQRJl
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAACB1b1RhFFh/xfS9BxuGnHD64tvosclBdhqwh0T0AbcOVxTGirPAOKsQoZf2qicthn4eO7SSd4+dMD6tJWzihSxG8RZIz70P2L3qFuNo3RHUPxxc3Xt25iGXDTqkx11x/+AjNu8uUm2p6MWWxPf3+YM4n8H/RgQfQSoihuHwFq91bC908RDfk0Yr2eLDvpuYD8L1v29EfVFVzDz4h+r7xFzcyhfoip1FYSXQvSdcJ7HnQ4k7O9fhnqYyvD9Eptk+zQJ9rUhqFaW8icJszVxSsux9Boj39W1jvWR6LupSUmylEHLD0s/JFoUWcKI8slk9mbPM+tJZGvnhuntLEx/VNAQZ4R9jsoDTYHzAiHaZGbW0ij4B2Y5GCNOx0pxnlaIkfrTEYbOjp8iwfljmJUqmNxlXAJqo6X3eyeJDr0pK5Yw1dSdt+ACZLNRUPGT4vcwWi8IO26rzuyjRabuwBpSFoiz7Lrb13max+CT6BTEhkBchUeTvZ52TjCsfkqW4zpJFWtkTqILniclPuN1hqku+g/aZREm5RwVSmRghl1/8jwhFnhYTnkM/YnyeJKv6vZinS/kfaopa/o6NnjMsdMo6FWejevqDJHCrxUwJu8a7RZlwJMXlAOFPpYD/j9QexAwmfJTaX+mmG9XeWKGrcUwu8zV2ViWi2Uhnoc5aykHTbsyLgMO5EEyeAGQaM4DuReNNnSGWYw6Ef/QsLvzPjzjEOrGAvgkN5WFU/BxzbdyBavsbZVN03UlP2n+ow7Qv+wgXHhz1BNhLAjgIxujs8wD8fH2OHVU6pB6w7GZbcHQ+bkW7Iel0toxLj1/EYfzkgkSZUf+WlVo5KO7bZxS4474DJYx8BiLPXT2yfwgjoPlfitaaB95/LWDixa26j1TphPit73X+8xHJ92YvPX+QsShYa51ONqpbgpyh1eHGJhQ3W6pIvyF2laMqyeTeg4RysTf0vbn6+sooFINBUco8dZzpnXkmSbaz1KgncOp
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAD4YzJ7fKfhi10za0GaJkgC0tnYPQjLP/jsWsavaMgoBug38snPHBnKX//AdAtH7VWQX4PBPOnXA4TQc4qJFe2yBPR6
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : COL_Value
+       identifier : 0x286e62ba0a559e2b
+       internal_properties : CAAAAAgAAAAXcaUAqTKcSwLgvVPD/9Ej1YNLOisGO41+Aia1DYD9FFRH1wqtEzOirUiZ3HLyG8G4ohSc2wE0qFFeTmMsecK6nJflFxvGXsUkRmTk//tPrmq/uRGySK7uI64mr1aly07zSmmMgDgxEYX96PBmmezXlvT0i4QyZZIBeoSXOIoqVQwooG3bM/9EXmfGDLqsGlkeedvMq6fuDw==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAACB1b1RhFFh/xfS9BxuGnHD64tvosclBdhqwh0T0AbcOVxTGirPAOKsQoZf2qicthn4eO7SSd4+dMD6tJWzihSxG8RZIz70P2L3qFuNo3RHUPxxc3Xt25iGXDTqkx11x/+AjNu8uUm2p6MWWxPf3+YM4n8H/RgQfQSoihuHwFq91bC908RDfk0Yr2eLDvpuYD8L1v29EfVFVzDz4h+r7xFzcyhfoip1FYSXQvSdcJ7HnQ4k7O9fhnqYyvD9Eptk+zQJ9rUhqFaW8icJszVxSsux9Boj39W1jvWR6LupSUmylEHLD0s/JFoUWcKI8slk9mbPM+tJZGvnhuntLEx/VNAQZ4R9jsoDTYHzAiHaZGbW0ij4B2Y5GCNOx0pxnlaIkfrTEYbOjp8iwfljmJUqmNxlXAJqo6X3eyeJDr0pK5Yw1dSdt+ACZLNRUPGT4vcwWi8IO26rzuyjRabuwBpSFoiz7Lrb13max+CT6BTEhkBchUeTvZ52TjCsfkqW4zpJFWtkTqILniclPuN1hqku+g/aZREm5RwVSmRghl1/8jwhFnhYTnkM/YnyeJKv6vZinS/kfaopa/o6NnjMsdMo6FWejevqDJHCrxUwJu8a7RZlwJMXlAOFPpYD/j9QexAwmfJTaX+mmG9XeWKGrcUwu8zV2ViWi2Uhnoc5aykHTbsyLgMO5EEyeAGQaM4DuReNNnSGWYw6Ef/QsLvzPjzjEOrGAvgkN5WFU/BxzbdyBavsbZVN03UlP2n+ow7Qv+wgXHhz1BNhLAjgIxujs8wD8fH2OHVU6pB6w7GZbcHQ+bkW7Iel0toxLj1/EYfzkgkSZUf+WlVo5KO7bZxS4474DJYx8BiLPXT2yfwgjoPlfitaaB95/LWDixa26j1TphPit73X+8xHJ92YvPX+QsShYa51ONqpbgpyh1eHGJhQ3W6pIvyF2laMqyeTeg4RysTf0vbn6+sooFINBUco8dZzpnXkmSbaz1KgncOp
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAAP3+gPgn+QTEYLxo1PJHv/25D1P9Gn+uHWAbxP63qBYKE8xRtdpSfjZooWJ1A+c6XgOkXnpmSJ4b0jcuIcSVMYqzlNdGcjhA==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : TREE_CLASSES
+    identifier : 0x286e62ba0a569e2b
+    internal_properties : CAAAAAgAAABJa2NGdhH6bU/sjmDGywtXW8JN4x73DIleyg35IaOb5IC5F3EaU71EOUyHBv5VCVJYZFzn/W/uESG7mfw4MhLRrTKFib69GVN8pt2PP0Tgbx2YTpysdH9Ousc7RsLcikrKEP9etbYNbCeUUK4bxaEuxD0eSdwvxJK7CiTjPKSdBiks035sVqs4X5hpXS3T3k7MQdErExBpsLcDpIqH8zIhl8ymMxS17ijdtlXJgk3feNp0E2OuMp2fZ65PkXHTSUUdu+hct51YH3NV5AeCD+k6e6+Ztx+420hSYKg9YYKOyYsWV8LhdP5aWSYyMAWvIoFyaGELRfZ/fzwFzVNDi1yUYw5tzUD/+QTOOrq/Bv00qQ3dO9sBXa06r/h6y3F5n0I5p+DjbKmECYAmkN4tFj0WT0zKMuGw/Brteu9wsXMiYEgQMXJP6PH1daLsPI+i6lzI3zHDFU9UL7LxlP6vUY190YJ78Rympd/IdOXwTPlcd1uQ0CxE1mIEzpjkcd0tngHtok11dtDFEbB55Gli5XoPWdCPZDJvAmNxDIhWerbIR5aSG7fmnBYyhzwaMb8R2avIGoHy7wqKdxTsGfc/fE6fCt52/iiPzZviJm8djKxqWmIYdmHgA/EYKYi7XorE083bY7KtchNlRodFbeLnZhjRt4MnesfW4k206vS9OXfNXd9Gd5EajP2xPtyUWQDR4mTp9nZCM7LycnsEfCuJhGuArnQ+aGaZfjw2wIVWHrEE7FCNsa81DBs5452zfSvlJbZGu1/nSWBnqe0iyRdh0Ei74FDFA6jNRrVV/d8gjQ6N6A+jZjhYKuxflzFW+9EH4MYjuTEcteBulygIBW5mCeERVH0bluv2cqgwuWef/KUj3OqNn6HaIuPywUu+oAVFUOYLCD8cSyIi90d2zhJKNTTcqmucaTd7sqroeRxV5M7vaHai6iRmSWW9qSKiD1ytNQQcPIMLV24OkNsrwSqlx+HkGcETh3Q50XRXUeirMWubBXxS2s07U//w7GByTyNMJSneMVhOkJQfZnf0lD62GpE4pY91pyRqmmryNMmymtvpPcbUsWBlNljW7lHx24B3bYc/25rIeb7ViZaebTZ4FDn+R5Uh7w7L4ZGM6mloOYleArm9/MKmwGdB8UnLt8oTMQqm8Czh/LWmLJP0XFJl2pn+3S2aVQyo4svSvGnwhl+QceYC0TQB+aK6PmJqyWFjSFgF+iGmlRc2tex2RUybvG5rDlP/mf9THnUcFHxcGLzWXxcbQAnAI5xlNtExZCQn0ARTvb9bPPoHoyvSzODyzo0jwbBqg1onU4hTx3VQQItcql2RRE5R1fgqkmYJUYJox7rkT3FFImp+zu1/VIlrdB+f0UZw0acB+hLU6o3u8f4dCAF1La21k6qRZ2+B/OZP9X61p5TpSFU2zVMukdAR9SRXKvIonJ04rE68eQZ4xkRxrmbzZNM5GGTu4x/8Hd8/T4XorbHb71XshqoIvWBVDGdExQ==
+    properties :
+     x : 192
+     y : 189
+     width : 222
+     height : 349
+    type : 19
+    code_elements :
+     type_code : 25
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        internal_properties : CAAAAAgAAAAFzPuILrX6HQYLtAkQ68a3ktDMBpz5MUCuS+lyRU8akA8LmmDFQa7shFo0ULONdQnLLLy9DC+421OevrK5Rmx+CowCvkfOY+a6IwtumLgjCcf0ge9CVqvKXstVbwbSseHBQ2I9bMznHLY4h2xEClZ46fcrmbO/Z54HHByAF1hmb0m/W7YngM3NH73GxPDvKuk=
+        code : |1+
+         // Retrieve the selected node
+         sNode is string = TreeInfoXY(TREE_CLASSES, treeBranchName, MouseXPos, MouseYPos)
+         
+         // If the NOT LOADED is found
+         IF TreeStatus(TREE_CLASSES, sNode + TAB + <§$0004§>) <> tvError THEN
+         	HourGlass(True)
+         	// Retrieve the child classes of the selected class
+         	GetClasses(TREE_CLASSES..Name, TreeIdentifier(TREE_CLASSES, sNode), sNode + TAB)
+         	
+         	// Select the node
+         	TreeSelectPlus(TREE_CLASSES, sNode)
+         	
+         	// Retrieve the associated properties
+         	ExecuteProcess(TREE_CLASSES, trtSelection)
+         	
+         	HourGlass(False)
+         END
+        type : 18
+      -
+        type : 19
+        enabled : false
+      -
+        type : 20
+        enabled : false
+      -
+        code : |1-
+         // Deletes the listed properties
+         TableDeleteAll(TABLE_Property)
+         
+         // Retrieve the "standard" properties (inherited and local)
+         GetProperties(TreeIdentifier(TREE_CLASSES, TreeSelect(TREE_CLASSES)))
+         // Retrieve the "system" properties (inherited from a base class)
+         GetProperties(TreeIdentifier(TREE_CLASSES, TreeSelect(TREE_CLASSES)), True)
+        type : 33
+      -
+        code : |1-
+         
+        type : 30
+      -
+        code : |1-
+         
+        type : 31
+      -
+        code : |1-
+         
+        type : 36
+      -
+        type : 17
+        enabled : false
+  -
+    name : BTN_CLOSE
+    identifier : 0x286e62ba0a579e2b
+    internal_properties : CAAAAAgAAAD8yQuoI6g3ypD6hEihK9miMUly25EMeiwRrzTLWyBVGLm2xBAAhliCWNbgC4ByII9THd8u+Wu+sLd9FtvxClpmoTkVCNlLcNSk3Vlt0YcbG2zTP3EA60pPwOwrCDwGbdKGLCvjpCA048iIHEUpXzSlSfxDbuSjwFNUjoQInYrrxhmmCi+IEIOO7bEggf2cf/qiYxA/dT6bSORvaR7bACTXdoEh4qSW7voVLfd/r/70EkIjbHtAQ1xl/4WNM0oVL1EZsiD/F3oyBJLF8rLHNAKoOikEnpoJQEIDupyRiX3BcmGDr3UvGhHFSdmGn/tjfHkh/p44nvTjakgUaE07fsAsJ41RJ/0RKu+PYlFtzv07APO8GfWHCwtdxsxkPPPp1zwK/9Z36uihqMGOw0jwfvogzwhGJBj+/CgbCEvXBtu+26lMvrClkyKG2yUudNmYeWdVwbqDT4o82WWV9LzpLd/vK5wVr1ZwUlYPiT76uMg+DRcThI9ryjGkwW7owhP3+944nvjNynDiIrh0OE8gJOhT4jAycbOC57iyfoDL3Mru6/xoAwJB0Op4z1HBEb/slr3eIDV++pK4Kc4AjJfO7qN0hPQWkv2BBoVj9HEpT6JrXvoybRWWWLfFQtJjgbSWfNfTF+WrhlH62edX1Rrbnec7W55f8rV+0BBDEy5Cn/jfQfyaJtJyQ6D2I6Z23TL4JVIRhQzNOJXfyYektXXBdZ3D8b14oYSAbPGgU2SbJHVhcOfAuTDfSyhZH85p0aJOwBAE0hhQky8gutNwc9aThIUuenzYGMM+vKafyVR+E/qXHlkAr92+dZiNhuGTxdIbQOwYpmeWoFAXo/VX+Bwz/W8Xn8KhlDnlwOVDniFtDBjUiZN/GMmAkR820f6GkURmxHji/bWO7W5o3L8pcaNpEPwnJnc0en9EBUimZm+p9qIYMCA+rtVh0bK+i+n309EPw0LcSRk6y4jf
+    properties :
+     x : 910
+     y : 546
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        code : |1-
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Show_the_content
+    identifier : 0x286e62ba0a589e2b
+    internal_properties : CAAAAAgAAADq2hihX090o9ihZdYcFz7G9jaSQJZ6qEdFN273DSu+I+xlq/iCy71ZYjZtWZ06pV5dhv0cFKNXd4vuuBqxMVQ8cP9j/bixsBXsjGowCMDNxgH4jOG8J0oMLbIejgl7r21TJqupypwGD36wEPcUJ29DEObL6b5DDYpc6ostntlUYwO1uah3vYJMt/wchf0vJxkpLGZbXmic+GPY97JXzBdu6wBO/KLYt+W3zd2ltGxOUBLd5x0aD8KbOvUeumoUDJIfr25VZ01UccOSRoCZLifUG6+aLp/vKRmEAV7rI2KdRZ51ZRVxxZEiBIFYZ3DwT3VhRT7obMlXE9EU9oaBHUSuUHyH2KIeb9or6WZ2o+3pdG/LhHtPPcQESTpSynqpj3T2tSMHEFsLuTTApgeZ+4sjvymOIS13KD2h4zTLllQQItBfKQsJtnKoreOtGs9iiqvs1T5BmaywCP/fQsNgUBlG0Fz84BRwLStWOlbIebIBK9DTB18jZOvL8+06nNNiUt6+SeJ2Pe7hpOAfVqo1gnCuH8fhKbxcbIQDg4QsPKRHYR1tRanpxfR5+n6BZ4XlrhbnbrISjKyp1QxHBMh27hio9CSMVxQEg1Rz9W4cprNw+xPkh5zRBugmm/jwpGSEALozOS1dtLBBIFDsKnLA9sWoWd2pIzwAOtHpKArqb5oHSopNhpiJlinaM8DVHGUpWmonREXPr/I9DLGie+hnd3dMZ+zqiVw5mcVAiWyILShtU8yuZMYGEZCOBGztI96iE+DF37I9GeLXNwTvwHa93Ersz+r+IsguZo1TJ9PZttkuX620UFzu+kOP5fMlS+2gofmJtSJAX4axFKy/m/HroARu4zXOZ1GD3GRKLq4PrkJ1VfTZsboS7Vw0cZEsfJoTeMzbUGgc1pShxwK/FsIQGqTNwN+Zi5f+imbV7ue4YIztdigSqR+2j0o7PDOR+5qXEeveZyii/LiecgFTJ57kw3+4hTeKUj1G0GZS/g==
+    properties :
+     x : 790
+     y : 546
+     width : 114
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Check the selected class
+         IF TreeSelect(TREE_CLASSES) ~= "" THEN
+         	Error(<§$001b§>)
+         	ReturnToCapture(TREE_CLASSES)
+         END
+         
+         
+         // Retrieve the class that must be viewed
+         sClass is string = ExtractString(TreeIdentifier(TREE_CLASSES, TreeSelect(TREE_CLASSES)), 1, ":", FromEnd)
+         // Retrieve the path of the class that must be viewed
+         sPath is string = ExtractString(TreeIdentifier(TREE_CLASSES, TreeSelect(TREE_CLASSES)), 2, ":", FromEnd)
+         
+         // Open the preview window
+         Open(WIN_Content, sClass, sPath)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_EXPLANATIONS
+    identifier : 0x286e62ba0a599e2b
+    internal_properties : CAAAAAgAAADHZVIdPyOGBmgxNDkpqxvVO7Oy1W5EHJlxm2lGsDjibNmQgmDBghCVN9xtPhEOiuFGvRThQrl/CUmbLhIRpaugqnKAJyuPNvdaZjfe7qXaJX67VeHU6wsS/XuZ8H20pMmyDeT5nqfisrvl+k88XJsAMG7SwC1XtlgvsfNGbl6ds3sBkVi6+B6DdqNgLK3k75tZN1+AY4dkRScXfnmtQuKXGdCTGrgRw7AuF8bSv/3rQjIYmttqJh5x1G6NMUeU0fFszBa5lf+TQWmnvE+jFwgWo+r6PCwFou4QOycO5mrmdVm6D4x3XhEdzFgOjnNcN0cvit/y7tbQtvOm9RyUyMRuNYv6P2wsUeSJ8uTlTP+lKC2MqUpcFFHFedOyKvjzxMBXWvvI+xxDiBdPfgVvVQTDso7bKclCiIPit+pqTBOqs2OH2LGTk37Zm9R/xyW7xWbOfSgQaG7aNBvkJGuMn89V1liu2nou0uThRYqce4ES+rtOK2LCfrVPDex9Bj55qZJ9GztNA+qtLQ8IBz3+pY0UQdhGmJJkWPrg8wASQLojfmUkKgJQLC0nnT1nPs7Ubl4pOsfDm22uyk82I4mKLMa9haeOMjeHCgOT4PWNsOMtiseFpT8vR8oI0kgSaQeTVY6YWj1qzSxymoA8EN1bRTMS7YbqQKsHWseeQEW9Tw8ItHLfCt+2++PNiBNRU/dJEclkaMh/mDh9De0lKGslH1jLkK4Zx91XLUIAjmnKeKqy+faDnw7fP670zo9Efqj8DWwVZNOJUE4bHIeFjWw17v+9x1Twa4T33jTjsgNLgjPN+SeMZhQzpCZrZ1z9YXQVRK6+B7ajNiL2+eiC4xsfYFkn72YIIWEsOmIYxx3gA0O6QtZrmHpBkRs6gKfVh0ixVkDKbLs5eL9g62LBErUaFTFWNLC09IErorxwcOvyRV/0XziNCsvGBCRifnytJPpdJgmd4LXc3vfdVDfsCaQDDVWBAcVI4NuQeP4qHnXzQ0sgq4GXOC64tm/pnqbqI5Wh/7yWX8oxH67MJrLQ44FoWmnHAH/qvy/hnxM8u5e2Xs5nHXsPXFFFfsPnf/ihiV/En/l4R8MHrSa5ja1XLFVkb4zufG/K0erZX0i+uA2BXyC/e/6kfuXU756YSUQJv9COncGWg9D+4SPvrodLZCVD165/R/q1mNvavl5GwXvRiL1iUu9S87OU4UN2v9I/9HEiwAe0Ed5SL+0lnVVYbhAVmmvGPeLMgGkwNtdG5dDnAuXsfyPIRA==
+    properties :
+     x : 6
+     y : 6
+     width : 614
+     height : 166
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SPLIT_Vertical1
+    identifier : 0x286e62ba0a5a9e2b
+    internal_properties : CAAAAAgAAACVDmtM+6mRSp4UlZJmq6mJBEUMchqfdDRQgfBsSVmtdNSncO7kstdSRFBTKowIL4PT2basbk+D3lgnZJEoietccLXo48m8Zg4PySW3dg8DJHeKqJTbvJ+ZDD2CDfqb6Rod6/d4Mx2Uu0ETMpt87DugStLRw/nTAFEatmV2oZ37t0AazSlzN8VNVF+ZOP18ThpT1KlUU43dlnN9q6YD8PU48k2pgDIe3ka8xOpit0EFhXVeLqH5qzDhRZJPyiByGsyjETUQTJScdO9BMiV7Pz/ArffZm4QvPPjM1RsfMbsmHM/vMcak7dOXKf92iUoyOFMGBQJ617eNtGvhj0cXUgC70JSPwRmRpm79GVlEnmsk9n1ZU3eMPbU6htq2f+DLQNxvy8JFK+u4f6mnW2PaRU92Jzh9RQxpNl1tDUpsWIco/AMqLu34ST68rouQHQZdKdkNvSXEF7o7GRumUqU5aIG7gBa8SIJRq8F7G6L3XeFFr66JdDgRZ/J4kMRyjBmnXcSDhpfxanE=
+    properties :
+     x : 419
+     y : 189
+     width : 6
+     height : 349
+    type : 28
+    code_elements :
+     type_code : 61
+     p_codes : []
+  -
+    name : SPLIT_Vertical2
+    identifier : 0x286e62ba0a5b9e2b
+    internal_properties : CAAAAAgAAADWT6oTMuI0JT+lRh3vBHJyXebvQU1oqwOFRgWfpmJaFQ0YK80PA65BIV3wuRFNyNhAdnXnxSQitY1k2VSVBvj51WKX/sQhjXU4Wp4+x9CgxThbCxP6JWrM9fXIQySbl7Shb2PcPRHGDc2v/HGGJNlOVtapWyOX8quCDrvI11FhBdxWBcEhd5fnIOtjTrfk5DALnAFsaW0nzM8JjRC5nM9upokR4LCuPLCULJT8bd2fL4kyNtljx0KXQe6dIHJiiFoPdWU/L/8rBUIs7Uq61myzoOIycv9qM2F7XNJoLLZjn/qS1gl7JE6Q1CqhpjUl1e4ldPM5JnZgCbK4NjyCxZXOTxuAwBTsPYcotJR1Tbpt/USQkHpzNMBH4b2Z+D9ywWNGMrtMKsLzyJTaDqgdOmgV1A0yKBd2GT4Capcni4wlh1yD/4RvssW1VyxxtHWmLuTG9ub71ovKFgQXA9zI8SaWbWsBG9UWVvpQOE8CoK52Xv9aRddwwEnROT37O8gI8l88P9gwKbI=
+    properties :
+     x : 181
+     y : 189
+     width : 6
+     height : 349
+    type : 28
+    code_elements :
+     type_code : 61
+     p_codes : []
+  -
+    name : CTPL_Connection
+    identifier : 0x286e62ba0a5c9e2b
+    internal_properties : CAAAAAgAAACmiBZdN4KGbBh9Vyxq4jbr/GXcqYXXiBBwEY99kqGCU35sVFGVsEBdT2kcyY0Zu8SMsf8qqeJ4/UpLQf9zrmxYQJw7C/aQBzfNd/9JNtHj7zYFPctkAxkRPrGWoSNzPw+zAclJ62Zy0wPf0BxX6p5krdIL7zYWJDEg4Q8o3VfvM0NdBaxxq9st42E24fF2iqNSJtV3hNVEPYhwVuIj0OrqFWqLPzy1rILlgf05tdaumvA8X8qucHim+KXIank+z4ZxBU4EjvXr/e13iqOBoNT/6sri8cVBlh631WrBqdn57udcmw3XPziarIoZPnpqPmq6enpshz5A/yDVVc0gg9ITDw9WsS4j7WUgkaVKOu2lEc4nCT0OvT3W7iTP5+BfzvCEEMZtpQbXa6r3b4wM3vdJBswpqZz2lMIxNBvtU+iOp3S9iOlySpOTPB0b/CYehnkFzvpA/1PiDp/Gzt0EZ3zQhWwjrN/RXxY3RTnJ24vv5wCAth6hDrPAqYlh1WuqEhpnVxVSAn3oRIUNjqgaIvsC6wQgV9VVek0lRnId8MLfLqmnoT9IZ37lrdzvjgJxBNALBvmn6lj13wQ74MNJB3qJrvwJC4Z2TB6P4n2jGTxxSsrzCRM4A1SSanl49oPafVMuJ0Rrv96/K27owF4ks4pv2BAQ2RiBYNfonozIZgUFewl/ajY9WmqqRj2CNyeZ1119AqBGaXHSIA+D8Qjt7ISL4kkbF4vUlFHj0TTNt/3ALGEgVoMFKwffRVnakBYekFwnSS5/LtdJ1YIzOU+T/G9AbycsBKwYkkUrJj/VawFyYOkg3u+eSXX4gfDb29Gm7KsEg8VoZEcmXwfMbzjAko+rSE8vupCng45gPaL5A+y1cQb9BQHsVPUNVJReTMQTkaI=
+    properties :
+     x : 626
+     y : 6
+     width : 364
+     height : 130
+    controls :
+     -
+       name : STC_PARAMETERS
+       identifier : 0x286e62ba0a5d9e2b
+       internal_properties : CAAAAAgAAACLEqSBCVTLljnG9TbR8/+8OUShYwe6HtGQ5KhhsE1GpZEsVhRPfUAakNJbVPgYYGgWa08qH5G2dTheJNaNFNXKAE/Us5aryjlsMlECEeRoC0vO5pOzWk7O2rQLqx10PdtLITbAx67tI8bE4fBj8bH+SKQAuZaVJkgvqIgEU3JZ7TALtk9oXbB0u8l+TiWQmFS0iiGJ3me6Z7A1bfoIHc39SDpOF8cRkV80K+55jpS8r8qLW1JDETtPUgWD6TRgmLvTGWtIZqjBgPySFVHmxqXkKUR3sEEKutUxjdjzoIuCoM4cIDXTAqjZp21VdI14QG3TjKkZWaNp+yCcb0uNkHHRUWWAz23IUBe93m0tjRgf680HP7RsFn996RkKmq/iM13sk+DK2MoEunSK8V+twoqDdnLGaE6Z0EJ25Wh6A6HDrYh3KEDEQtl1v+Be21Amo6Rxl/jGZn8j1lL1ojy8pZ+eoKI9Yxhd0mD24rUS8z4RknKxCmmCgcI76qwsdCOSRq5kY3QB6foJomyhRT9fp4OvfnyHA9Pir6uRapTFWHRDOxw87866h6uL5/S+FGtf/8ZBHVOfXRmkm/2dXZsWvQ==
+       properties :
+        width : 364
+        height : 130
+       type : 3
+       code_elements :
+        internal_properties : CAAAAAgAAABsdCY38UzKMrONH26MQh4OKh9iXpch/QsGTKSMydQ8+rbiqAIH56TjrMR2K5bZaftjxganTWQXxlgdrgiwEhysYGDpCE0a8Pp5Sgj8e2dt/jPnTmEg7rG0kePx3NMUZKCWw3HPQtiaiaKdOm1pTFJ1oVfOnu69JuqwWkDjvrgLwNnHBguJ1fPoqehb63BRiw==
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+     -
+       name : BTN_Analyze
+       identifier : 0x286e62ba0a5e9e2b
+       internal_properties : CAAAAAgAAAB3u8U74O/gnFhk/CjjKaNdP/RmmM2bkpUi+m5jz54PYa/KtR0Yk1FBfIGWLp8+S01b9LCLhz7VjqxyZgtc/MQwHQswPPeQXTEN8DZZO6TWj8y8z5ckO3VKtvIMH0TLjU39U29z7ugjwEJGRIf76qkz2qZmvdVY4UPKA+GfV969l3Ha2L4RIeZPFHo1mtvpY07TPoXYKP68zKIFKYt6XIYbA2EbIbV0aKRRv4VjAJgnaxjOs06FgR9EOYj5fpxqYege/ZkOTqDfV0KlWi2rzGmF+Gf2ApEAzu9zdt49km2c1kM4myqvWTuCtqqB77s0pZjcHssdWXOFwyhCzc60PtQb4tdm7rXdDKuk1dmAylWKYW0GBO2IZUGvVseQuHjH8tU+An40TyFQ5hz3Y2ysQD9aiicyg8+YOpznZujIN2/cR1DlEavgsQGq8aRX6HHE88aGjQG+xzWHIWTVNBOlTdNS9LtBZ/HHPGX9etWCbm7Qkt0nYFBU/MQgatUu2QJnquyJ8YrAvDROMIN9Y3zgMVB8wePiWVTI2go98e/J2e3U/phdL+P2Zs91Y1aEIqtaLOoI6jHzkEGDseYwgS8Ap6S2F85kXnTGCAdTx9qmkdace1KONpZzH5L0JLydJtwRfXMPe/hfDSA8H79A08GQEo9Qxb80u0g6HNhE+SZDqwqZmdtbaxL6jtcbTkkmkjgcqIUhPM/VEFUB5A1bAoFcjmohIFdH+jCqDjBYBY2EMrzZooivCNihHqwqQGRzSXpnFSJXk50lCgqXsrtu89Uzm/2kFf+4dFH9/CRh2VoBj/h1tdzZfgRcI3ERKHK+dSfpqYSBKvcOJaGvSM63geJdCtucL8FBu9P4kNr8M3W+qqRAQbW/bdMEHpSF17/f53MU/uaYy8F5u1cz39qBQDC8QT9d4hgdnCOAmVbicUK0KHBqW5Xu69SIsv5YOAOZibh5DuTnTWLnOrnDvNipvX3UhV8UHvN3tG1MNiLTeSYCeHQiLw0ax9GRA0pL1KR5EgRDD6H/+WizafXDHP+vN2hX4cN+tuCs4U5NouSnunx7D2NwbhaVj6g2mZMC2Wo0Zsa5VL0w2Ips1/Z186TFkRqYMEKIaFlvKEU+S8ipHfPLffJ4
+       properties :
+        x : 261
+        y : 98
+        width : 94
+        height : 24
+       type : 4
+       code_elements :
+        internal_properties : CAAAAAgAAABtFZTWcBs1RbdPmzJIvffg0uJbGhj+l0X5hp3kIE+0Xfx2YeqqS7zlu0s2LkCAGWSHAkGReRiHdTqHRSv/m7me8wO00079uhIctftNtkj5mcfVNvU5YPmlhEYUhf3Y
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            //Runs the process defined in the template
+            ExecuteAncestor
+           type : 14
+         -
+           internal_properties : CAAAAAgAAAAhEyRvo7QRFpFqh8hkb55fOct+DPZ3NxOxmJN+yAWJgbtuYMC9Wh2hMol/9tTqs5yJPMi0pmrNcYm4I1QpN8NfNj5PsiKPj4FTTf3LN/Hl7dxm3+abQgHw44MQ6+iAwCs65rpAf6EEhEpsncY=
+           code : |1+
+            // Check the computer to browse
+            IF EDT_SERVER <> "\\" + NetMachineName() AND EDT_SERVER <> NetIPAddress() THEN
+            	
+            	// Check to find out whether it is an IP address
+            	IF IsIPAddress(EDT_SERVER) THEN	
+            		Error(<§$002b§>)
+            		ReturnToCapture(EDT_SERVER)		
+            	END
+            	
+            	IF EDT_SERVER[[ TO 2]] <> "\\" THEN
+            		EDT_SERVER = "\\" + EDT_SERVER
+            	END
+            	
+            	
+            ELSE
+            	
+            	EDT_USER = ""
+            	EDT_PASS = ""	
+            	
+            END
+            
+            // Refresh the connection settings
+            pWMI.gsPassword = EDT_PASS
+            pWMI.gsServer = CompleteDir(EDT_SERVER)
+            pWMI.gsUser = EDT_USER
+            
+            // Resets the controls
+            TreeDeleteAll(TREE_NAMESPACE)
+            TreeDeleteAll(TREE_CLASSES)
+            TableDeleteAll(TABLE_Property)
+            
+            HourGlass(True)
+            
+            
+            IF pWMI.gsServer = "\\" + NetMachineName() + "\" THEN
+            	// Add the root
+            	TreeAdd(TREE_NAMESPACE, <§$002c§>, tvDefault, tvDefault, pWMI.gsServer + <§$002c§>)
+            END
+            
+            // Retrieve the namespaces
+            GetNameSpace(TREE_NAMESPACE..Name, pWMI.gsServer + <§$002c§>, <§$002c§> + TAB)
+            
+            // Expands the root
+            TreeExpand(TREE_NAMESPACE, <§$002c§>)
+            
+            HourGlass(False)
+            
+            // Activate the button for viewing the content
+            BTN_Show_the_content..State = Active
+           type : 18
+         -
+           type : 161
+           enabled : false
+        templates :
+         -
+           name : BTN_Analyze
+           identifier : 0x1557958e00dc80ee
+           code_elements :
+            internal_properties : CAAAAAgAAAA9pURmwGtF9Qf/CyJYrUeQovJL6qhOZ7WJto3UMD/EzQxGUTr6m0wVC6sWrqCg+RTX0rHBKagXhQrXFRvvi0kuY/Ok4z7NimKsBUs9pnjJ6bfFJoWp8Ik1FNakNa0I
+            type_code : 4
+            p_codes :
+             -
+               code : |1-
+                
+               type : 14
+             -
+               code : |1-
+                
+               type : 18
+             -
+               type : 161
+               enabled : false
+     -
+       name : EDT_USER
+       identifier : 0x286e62ba0a5f9e2b
+       internal_properties : CAAAAAgAAACVRj9xM5dj7V3Obf76sMPodi2wsaIs9LhgEvWKmTvL23uuz+bPj0CvlF5Z7IBN4p01W7zsjSRTc2+Jzxs4FdHbHO8AN9c0eJR6/7cuXumY9OK0YeYU62jMZYD3hgJXxwyn5ttFqEtFcEbzw7GntPBAHRjVojqyCwVz9Q+7AV5dhU9ftHll28zvphHwgvAMf6ytbjW+1wt0nH5br2Co8IXQ+fxGXjTqpJPxzuNfLVqVQO9/qtzZ7AGgvgc5cG389Jo4hyRwyCNyQI2P9oLf3qB+fN/rhvfzwbddFiZWA6RncwA/w0Bf/rSS1YAxpH2jgKerZqmkvgA4MHi1Qd7nmXFVBJcuQUUrukOd0hFtQXXf+iFO4H0DjjX/sWNKyaxi7iIhqYPYRTkuziPzBb5NMmzKoAQoI11TvtUogcceSQk24sxx3rtaSAz4Cpn0DflJ9u1hS0ynAtCBBJhHZNyq+srWPeeeTzD4vu1QgVji5l2bzNnGsPTRPNrIoJdy+TRBckkbpzWJmvgRC94nSL0WPr4zoRFLXpU85y0co49vdu/ft+8xRhTBUZIJ3BJFJXtLbxdtSPVokyci26e9MJle0T2skWlkANjzZJUJS6Wu7SaR2wELG6foV5AwgfUFhAOnHIWVylcNvtOfyXbKERG0p1C6/5q1/T7YHA9xJaSNkjfu0LZhZUCh8Ep6gAsFHcKFUHjReAU/+K4hGMo19ICUWucsx6FdgNZIjDBm/N6vJqqKz4id9FdQ9Ol9qBeRA75cByF50AtYMLzyUJhcw3/GnM2YVCoSidgUbRur8Xngm+v3YWlYKp1uY1NhJXxh74mntLUiTtY6QVvRziP9ve6eD8vlXoDS6BdJDzmXC64j6rr1tiqhEp0mFmpyNzsI2QbF0J4GEouKhHfVKO3ofsj97FPdQ30ICkMpJ2IZwtooc7z2xrC60NU8wdwuluQRnnTtO6Ua6TVYkVEh/XDbQpyTIEfO4U45DZWOORTzf+hZbcQ3TIwTfh/FDOYyj64hREZILiiNQlTLbPKmuAJnfwPfem5ivEmX2lRFVA5/JC5jvYqw3ggwZ/Aog7g8/mkIzsOHFSBWroqxeUoM1EsZ1l/7nRXnlSUrWdvScvUASZ9oaUvfAPzrCUFaQ1z+LlraSI89QLJL98L0o7iD6Xd3uqGePOSLMboNaMNlu/z+8e4XG4h3pi+G0ktrjFf+WYU24krzzt55SkCaN5MAebY1bAzYkNo=
+       properties :
+        x : 19
+        y : 70
+        width : 238
+        height : 22
+       type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACdBeQGoAtlFeffK0J4TefwwpKrSkguxxUptk2U8H9EzQzG0bq6mwwVi2sWLiCgObR3stFhCYi3Zao39buPq2nOg9NEgx4t6sLM5audxljpidflxmXJkClVdHbE1Q2o
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+           type : 17
+     -
+       name : EDT_PASS
+       identifier : 0x286e62ba0a609e2b
+       internal_properties : CAAAAAgAAAAq/GftxPOJ9VSOte4un6Iy5qINpT/hRecu6QPZhti6Q4ckdvbT6RxAtWQXwkCiUOY38/7YMALgKr/0BYIQWRFI/HWxvGnjlG2jTg8RB4dygalQyzyOFL0rgxmzxTN4bW8D/pFPaIBiuj3BEYffKXgF+N2u1FPAlJeTLFqkHrQy+tGqfmeYZWdUwbYk4j5Eq9z4UyWTvr3HUVHEkhgrI5REplXi3wNXv93slDiE5XakLaHNStBfcYLA0pZVvEmJa0VrdjRovx3iQweaAxJs3sx4GqKNGH55sEsBHaSKUI9gk5mrA5oaDJYR+82elXBfZ5jNZ5YDvGKBiKO01Tl4xoEdgnc90v6EWkrW00xJLLsiu1E7GFloq7hO9/UqrjKPjN7JzSNS82RWy+dQDi2RQxC0sP9nJa1b2545hO84qaBRu75+3KiWvG236WrilIa38OOTOi6K2D9L0iD8g8r6ujySQ19NSV6lk4tW9zfd3npLDdaaGEbfMqFqbTlnfk68wh1Ns9aWfnrvzGzCOc2InqVgjHNN0tEE28UKmwlmFMUUlc6ZLCNdAJeDlF53IoyY54gnUKP3zDqfHAqWvcn/uLf6AwVkKEzsFTEmt6tRTrbny/Zc3G5FaaYiQ+4vXlXEKVh3R1nNjrk2FiDa0ROOD5JRylNt4wNNbJC7NbA7LpMUo4SAxuG86DB+Nnvql039XZjRI67Xaviw/La+V5R+v4KajxtPgRYa91Dh1dosuqzHUug+z67HisizpggsZEzmtBmc4KONK+u6o3gbRKyTLDluU5hFl5RYS+TmFroaGP3CcToLbS0SRlPe0Y+yoGo9RVa5AD+8LLgJ1WA2kH6N+9jajMoLN8JJ7M/J3sm0a0kbSFMaQcWdVxwUS1+8J3qesRnGac/YiR2exVVTqY6pCN8y85AzwmXexatXaM/XaIoZ+RPHBZh+Mli7GQm491vB24ShySlHPl1yDQlvYbyk3iH1GaoIi1s2SazQQYh/eCgOzuQWulJtYevxsN8PpZ4EizbQ7Zl8NFslT2y/jB9iTdn2QjY9H3KKzsOy/SCUhClrT+KIstj3NXHMiJr0g0F/5iku+xpIB+Pcs911cQzRr4Ky6U+wybvOywDkZD/VdLdNZ+DW/TlCj1HTuctpdIR0fpPxBFMiXVQXj6U0u3spHSG4A4J6tjky7Cih509fYaVhLMu7lPNNyIyv7ZqsbkZtl1WHuKxWAKUo+RaLDElFI/Iuzbs6nP+BngD6
+       properties :
+        x : 19
+        y : 98
+        width : 238
+        height : 22
+       type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACdBeQGoAtlFeffK0J4TefwwpKrSkguxxUptk2U8H9EzQzG0bq6mwwVi2sWLiCgObR3stFhCYi3Zao39buPq2nOg9NEgx4t6sLM5audxljpidflxmXJkClVdHbE1Q2o
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+           type : 17
+     -
+       name : EDT_SERVER
+       identifier : 0x286e62ba0a619e2b
+       internal_properties : CAAAAAgAAACwIDnAlUaI2z7ii/DzAgmJnbrtazdrFnVNP9hJecDnyHU8wEbS1Llg0UEhtBUon0fhuxkfo9YBPg6Nd69ZWgIyeXmdaafW61qJ71oROzXrpnK2o9ZexbwhUQHoFBrhw204exBAHom/QHZztq+G+rB2nKmu1HL4DF2K5SuwCchNoddmY3MWzrUzsNDBJn/bjdsnzGzzhETIx0yy+ecZy/sJ/uW+RyqUwuHbNOIeNjmj5mAujsA9p9V8jiQ8HkykWDWjT+xaP7oTv2FnjmvFssaP7FNkVX0amc0AA45oDtSzDkZUKl1k0Uu9sdJqZK/uHfbeuqzqLYkoiP+P8c+Ojd/h9eTggGBCLmC4ydG7eCIdYea9DJIRocJDKGkSSumXQwNeMP+uLG3SrhXT3Y8g6IXexj92hETXfz9TSVLflOB9/S94UG9H+9/Y1wUyAxQtFr6MBnB5Z2vGsSxI5DTAjycnMKwl+K6daflfk83BYbJveb36BMyY2y+1YH/gtaTF2FDw/HSoLrBdbB1/do/sB/M4DPTmatgG09tIKM3y7PJF1OTXJzw8Q0I3m9qf257PTKWFCH5UTVO0AZd5AiEiVixoxP7svckTgrBQzBDTi+Kik3Aa8p+vU/oHHviCfHsksB2pWJ8Sx8+jyvHRkK0o/h+KTH8dsUwqIxA5FJKWk8QmvtE1bVxjSLJ6FZZR1dh4ZB7mULeecqadzIxDLnrsR7aSgxMqOQa7udz6vn8SbwpONzwdaI04BUx8TCGv+Nm+rGhi+cH3mVCy+DApzHG+ikF+9qeQIKbv9Ui4QMvrATYJAuVKEONxrZHmzwQ9sqJRndDz4298usUelylf29ZUJ3mN9dJ3wbR2BgqI5eTyYxPQb5E2SiyYS+lRRX+gBjLTnaWr0Wtaf7jXJ7DE/pBhi0dMGaQjhBtGYBc2iTVeUS7QcRroeoX3nIGv8Czvq24LGMn+UqdGhb0R0bLSqKQuGW2V8CKUmaUBaTNkdxfpr64MmbxoGpV4Fxy/llG6hfpKEJfv9hz8ky8H0J2KHaaQSrexIOfxVqxpmx8ow3owvmLWKfyf2trs+3KR/Nc6exRJ9zYfBvvTtlT/L7vkDROr9h5o1cdJVg+xOT5F6vggL5x/SNA4/t45iSVrAeFyQLqBIfIYf4vWpvbanhVsX5/3w4L7lWcr+zb3tg+MbHZamXI9wAL/BQmMrQLztZxKPW+WbyGYFXiYCO844LrCTXBB580B9oU4KFbsKw==
+       properties :
+        x : 19
+        y : 42
+        width : 238
+        height : 22
+       type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACdBeQGoAtlFeffK0J4TefwwpKrSkguxxUptk2U8H9EzQzG0bq6mwwVi2sWLiCgObR3stFhCYi3Zao39buPq2nOg9NEgx4t6sLM5audxljpidflxmXJkClVdHbE1Q2o
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            // Local computer by default
+            MySelf = "\\" + NetMachineName()
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+           type : 17
+     -
+       name : CBOX_REMOTE
+       identifier : 0x286e62ba0a629e2b
+       internal_properties : CAAAAAgAAABaJZywkF9jl/EZQH3rtWvS4COL5Ps029FB7EG83MxIdaRk/eXeKy/l55/a2HBCWVc4wWCZq5oQ/KW/hRXd/qWSGgJp3ltJI8YKkSKx2TD9mEb9rzXTdJCcTUg6avOBgNzpRt90HFvfLr1Huc0P17j9HOut56zs7BR4u17DkHuVGyoTYMbFZ4ruG+A944QtnABHPhBTH8kNgTgkTq55aWul2JcqyHD6N2qwQZAIp8J24NfzWLs5UsCbW+2Q3chdOEvlp0HI+vN2/SV9GR/foo5Fg1MTI1MsGghkc0+lI2hmfq0Et7SoAL+0l5DK2X/nDdraDjfTL81bABp5S/vLA9CT7aKKa/SHRDQeY2b83ut45xmOveHhx4q+5SW2IBnF9tI0fR0IptRMpl/OtflNxPGxqsnwefsxf8LZYBU5DfihCg4T2dDCS5TEuqikhjLMKtwfxWTKQx33qlob+NTMlab3up6yjIjYLDk2H+KSPIOBf9JwuXb2fncCK2RpBRYUrIGCz9aQMbOW4l6wg8dBfue5r2dZF0PbpjO/W2zhCbTJjU48OBlc2GDRmhiM/tS6sw4R2acw9xe+nwoPupyMobIMEzodKeMwGetTBaDripDlX4uAcGRyOozvUGihYAFchOpZzbe0LReJC9XlmPoNiUApgOClWIoIV+NnYhxmMWr/JiCvtkisdivSzY82a9w21Wg5eFaxs+HjqEHsHbAgwGJFSJ769VxSAKGVjx5Lhucuq6Q6nK3xtCnq/JgxFwKOqC9uOKM65yMMrFk98JdaAD0Bc5qKNmlVqoqRu4PXbWNa5Kn0Yp+g3Y3Q31i34uX5FRKfQy9su+V9BsmmO2b/ETE/7hXDYqCYDP8fU2Hsx1vgFjSAe1reyP44DxVBkAelhggCWk5mpXuexgbWHz4z3qNzTJ5g+7Sq08bqOqiAQJtHbURAfXcOwk5ydrqH2Gr7aN5XxkU9UCntOs6/h2DVgxEGE6VNRmpRDMaN0Tmo+EK16btvmMOJgZixy6RQ5EnmhT0CgjNKduBByxRj/lYVaiEVpdwQiv7yESjOcihGzVHGMNAM1qfnGo/4rVxhKGu2LBYPp4kz5C1dSzKXBHVCTb9vvg==
+       properties :
+        x : 19
+        y : 18
+        width : 338
+        height : 23
+       options :
+        -
+          internal_properties : CAAAAAgAAAAl/LETl1kUd1gadKaaoOOsKROW8HQ34YFkVSSaa7dAXE3nxHfkRO50RzEQ3teD/ySOCvo0qyepy0P+unuJELns+AmQ8QxXtx2O9TwWhdeE2kfzXE34N6D4u6iEyDOieHwSNb9wK0AvEaGcKdGTeBvN2s7wcpig3E4Y7tzQJed8a512tmrGZ0bmo8NYCAAPflThsFEpAsIp8kCfgGjTq5cv2Bck8leiyYd6BOIX3OK/B9aN5hVY5DSOzV2yTBb/xYGSKOtywPKWWOmDaBX3Wc7AMnZtjW9tNkpnzw==
+       type : 5
+       controls : []
+       code_elements :
+        internal_properties : CAAAAAgAAACJMfAqtE+p2cuz3/48kVuEpsaPJuSas2HVomlInBvgKSjiPZ7OHwAJk2uWLiBIceAz/hWlPVR7qW5LGV9rz02y5784n/IR1i54UQd5mnTV9aMpgjnlvF0JOIro6Rm8
+        type_code : 5
+        p_codes :
+         -
+           code : |1+
+            MySelf = False
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           code : |1-
+            IF MySelf = True THEN
+            	GP_USER..State = Active
+            ELSE
+            	EDT_SERVER = "\\" + NetMachineName()
+            	GP_USER..State = Grayed	
+            END
+           type : 17
+    type : 43
+    code_elements :
+     internal_properties : CAAAAAgAAAAH2VZBXoGgQPTSOnrbQtIC3LyCca3S/9xAb2/eqmoeivHNM2BG5VTq2myUfRkMlY5IS6b4V9qX8uEEvLK9VszjdSPVvMZj6PuDO1TkkmqJ9KSMOVbdf/oyE3zB7zFs4Whj/N44ZCY0YUygiefedd4nHRr9UDzd8KD6DJ8wCT7Vu/sfHs0b5saetECMhYwYE1nONJJzAumWXPwxaac6oX6OwI312udZmg==
+     type_code : 93
+     p_codes :
+      -
+        code : |1-
+         
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 14
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 234
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 15
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 16
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 43
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 42
+      -
+        code : |1-
+         //Runs the process defined in the template
+         ExecuteAncestor
+        type : 17
+     templates :
+      -
+        name : CTPL_Connection
+        identifier : 0x1557958e00db80df
+        code_elements :
+         internal_properties : CAAAAAgAAACSCtkFrQhiFuDQKkF7TuL7w5OsTUkv2BYq18smVmMg6dQmeRrE52x1WxsEeG6kub1sd06ECqmoVEeUVGRw1EwzbDzNAh0u6cPN5qycxVnujNjmx2TIkShScXPB0ACl
+         type_code : 93
+         p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x24a4fd2be276f140
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAD27o7X+IltWiZdm/E3ZkS/Z3E/BeDThkbW5IQ1gRfrLxy7q/w+S+Nk2h006ZKMFWmOe4pwPP4EHyRF1Y8kSGKkcd6boO7zwX1+ufSRBKOW2GoydU26xfzVzYq87GRB
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACCOFRomd6+bIsK2+FUS6YY+lsAuOn2W5ivIWJa1pwiiKi2rCC6Iyr88jd5evuhlyaJc1hxBdui/x04JLPDaoai1HAsgU/W+8WaS8XtcEh2XNoHxuRaSBy1nTa7+bE4m4XRNXowo/q/It2Zp7xXQsgICa4tmvZL2xWMhtZqqZQ+u6sCeNTLQON/mUgAxO4qCDLX924eFMFhdN5SzzKKMJhbTlGl7zQnYcD7kakqxKzfU6WXwO7p//UUcnwRhj/qXizpFRAg34nh/5VcpDCrrf+1wKSlLqORAINNh4i38E4T6oYOReJT9SfZrGpQ2Ul1kaNngw==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      CONSTANT
+      	IMG_INHERITANCE= <§@00000000000000000000§>
+      	IMG_LOCAL = <§@00000000000000000001§>
+      	IMG_SYSTEM = <§@00000000000000000002§>
+      END
+   -
+     code : |1-
+      GP_USER..State = Grayed
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : GetNameSpace
+     internal_properties : CAAAAAgAAACxygJIw2RxYC1p+eBsJeg3RGb8EgBFIbo+TCTdE+Z6G6wfpohkNMnr9KlF2V+f3Z51B/Vsrw2nirZEfGMtnP8gv7w5E811KnXUa9u4f4WJdsailxXr7IkQLduqY6EzkSfaicN8/e9aMqJhlfzx9gGk7VrBb5u+n/+XTprNOzokGc8snqTN6p20xFxJ6nNxBTsAZbVf+iQ5SVimSKBQ7cDJJ1WRRySTtWpPdpL4vNeDNDQdu/uFZWe/iarqQfIKnYa55RGrIpbC7+goWH495VlTZV6bnw+Oe34GHbNqIaIfd5TQk2WORXt4U+26JkWYz5bvrWbWQJ8GjtMG01hqPAKosouFCK1IDGprD2d3V2fl6xoqkXUHxvKLgMjCkf3SssOUjMx62SY7LX+3aZUFLIA2/wy+LUocaSVSTPIa9Svyx1rpt3/TsfuZMK85SefJhxPcB3gWZHRW9wXpPI9ijd++i3q6gAzeuLk=
+     procedure_id : 1760453055371255339
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] GetNameSpace (<sTreeViewName> is string, <sNameScope> is string, <sParentNode> is string [, <bLastNode> is boolean])
+      //
+      // Parameters:
+      //	sTreeViewName (ANSI string): Name of the treeview into which the namespaces will be added
+      //	sScopeName (ANSI string): Namespace whose children must be found
+      //	sParentNode (ANSI string): Node from which the children will be added (necessarily ends with TAB)
+      //	bLastNode (boolean - default value=0): Is it the last node? (do we list all the children or only the first one) ==> Optimize the time
+      // Return value:
+      // 	boolean: True if the retrieval is effective, False otherwise
+      //  				Don't list everything at once, fill the children and the first child (if necessary)
+      PROCEDURE GetNameSpace(LOCAL sTreeViewName is string, LOCAL sScopeName is string, LOCAL sParentNode is string, LOCAL bLastNode is boolean = False)
+      
+      clMyOptions is ConnectionOptions() // Connection Options
+      pcliEnumObject is IEnumerator dynamic // Enumerator of namespaces
+      pclMyObject is ManagementObject dynamic // Browse Object
+      sNode is string // Node that must be added (Parent Node + TAB + Name of Namespace)
+      sPath is string // Path of namespace (corresponds to the identifier in the TreeView)
+      sNamespaceName is string // Name of namespace found
+      bRes is boolean // Return from the enumerator browse
+      
+      
+      // Create the search path
+      clMyPath is managementpath(sScopeName)
+      // Instantiate the connection options (empty by default for the local computer)
+      clmyScope is ManagementScope(clMyPath, clMyOptions)
+      
+      // If the remote mode is enabled
+      IF pWMI.gsServer <> "\\" + NetMachineName() +"\" THEN
+      	
+      	// Refresh the connection options
+      	clMyOptions:Username = pWMI.gsUser
+      	clMyOptions:Password = pWMI.gsPassword
+      	
+      	clmyScope:set_Options(clMyOptions)
+      	
+      	// Attempt to connect
+      	WHEN EXCEPTION IN
+      		clmyScope:connect()
+      	DO
+      		// Access denied
+      		Error(StringBuild(<§$0002§>, pWMI.gsServer))
+      		RESULT False	
+      	END
+      END
+      
+      
+      // Retrieve all the namespaces
+      sSearch is string = "SELECT * FROM __namespace"
+      
+      // Define the query
+      clMyQuery is ObjectQuery(sSearch)
+      // Define the search object
+      clFinder is ManagementObjectSearcher(clmyScope, clMyQuery)
+      
+      WHEN EXCEPTION IN
+      	// Retrieve an enumerator
+      	pcliEnumObject = clFinder:Get():GetEnumerator()
+      DO 
+      	IF InAutomaticTestMode() = False THEN
+      		Error(<§$001c§>)
+      	END
+      	RESULT False
+      END
+      
+      // delete the "not loaded" branch that was added when loading the parent node
+      TreeDelete(sTreeViewName, sParentNode + <§$0004§>)
+      
+      // Starts to browse the enumeration
+      bRes = pcliEnumObject:MoveNext()
+      WHILE bRes = True
+      	
+      	// If all the children must be listed
+      	IF bLastNode = False THEN
+      		
+      		// Retrieve the current object
+      		pclMyObject = pcliEnumObject:get_Current()
+      		
+      		// Retrieve the name
+      		sPath = pclMyObject:get_Path():tostring()
+      		
+      		// Retrieve the name of the namespace
+      		sNamespaceName = pclMyObject:GetPropertyValue(<§$0005§>)
+      		
+      		// Build the node
+      		sNode = sParentNode + sNamespaceName
+      		
+      		// Add the namespace to the TreeView
+      		TreeAdd(sTreeViewName, sNode, tvDefault, tvDefault, sScopeName + "\" + sNamespaceName)
+      		
+      		// lists all the children found in the current namespace (in 'last node' mode, i.e. stop as soon as one is found)
+      		GetNameSpace(sTreeViewName, sScopeName + "\" + sNamespaceName, sNode + TAB, True)
+      	ELSE
+      		
+      		// 'last node' mode
+      		// Add the NOT LOADED node
+      		TreeAdd(sTreeViewName, sParentNode + <§$0004§>)
+      		// exit the procedure
+      		RESULT True
+      	END
+      	
+      	// Goes to the next object
+      	bRes = pcliEnumObject:MoveNext()
+      END
+      
+      RESULT True
+     type : 458752
+   -
+     name : GetClasses
+     internal_properties : CAAAAAgAAABAboDo9zXB99zUArryErNcA5M/IqN5B8vgUeaJeL6TlPXOg5U6FF/mvrEiXlElH1cyirdPBBJGCEJ0rTfxTeSWB6LUxHrU+h9lAOTZl0srLgVyymJ4WwBv+ZrAp/lJY6bSjgjr8cI5mT+XOskDQR9JvOtpL1FpswWOXBrNZXyNfCI4rqGYnwL1sIja6yreEWQR6XWurwcy/y1Gf0YEgRqSB1CuaThKLDd99xUJq9MqvIh/NRDsoi4SRD0/p5fgClTzzgxDedQDcSEp6IjWxBcauIrsyPp8vAgcgpgkq3je/s9KuAfR3lcno6EkDY3xiAK4kT0hTLK3z5ZajeQ845ORAnTM0ke1CfdfrbU=
+     procedure_id : 1760453055371320875
+     type_code : 14
+     code : |1+
+      // Syntax:
+      //[ <Result> = ] GetClasses (<sListName> is string, <sScope> is string [, <sParentNode> is string [, <bLastNode> is boolean]])
+      //
+      // Parameters:
+      //	sListName (ANSI string): Name of the list
+      //	sScope (ANSI string): Search root
+      //	sParentNode (ANSI string - default value=""): Parent node
+      //	bLastNode (boolean - default value=0): Last node
+      // Return value:
+      // 	boolean: True if the retrieval is effective, False otherwise
+      
+      PROCEDURE GetClasses(LOCAL sListName is string, LOCAL sScope is string, LOCAL sParentNode is string = "", LOCAL bLastNode is boolean = False)
+      
+      pclMyObject is ManagementObject dynamic // Object used to retrieve an object of the collection
+      pclMyEnum is IEnumerator dynamic // Enumerator of classes
+      sNode is string // Node to add to the TreeView
+      clMyConnectionOptions is ConnectionOptions() // Connection Options
+      sPath is string // Path of the class found
+      bRes is boolean
+      
+      clMyConnectionOptions:Username = pWMI.gsUser // User name
+      clMyConnectionOptions:Password = pWMI.gsPassword // Password
+      
+      // Declare the root path of search
+      clMyPath is managementpath(sScope)
+      // Declare the search control
+      clMyScope is ManagementScope(clMyPath, clMyConnectionOptions)
+      
+      // Retrieve an object on the class corresponding to the root path
+      clMyClass is ManagementClass(clMyPath)
+      
+      // If the remote mode is enabled
+      IF pWMI.gsServer <> "\\" + NetMachineName() +"\" THEN
+      	
+      	// Attempt to connect
+      	WHEN EXCEPTION IN
+      		
+      		clMyScope:connect()
+      		clMyClass:Scope = clMyScope		
+      		
+      	DO
+      		// Access denied
+      		Error(StringBuild(<§$0002§>, pWMI.gsServer), ExceptionInfo())
+      		RESULT False	
+      	END
+      END
+      
+      pclMyEnum = clMyClass:GetSubclasses():GetEnumerator()
+      
+      TreeDelete(sListName, sParentNode + <§$0004§>)
+      
+      // Starts to enumerate
+      bRes = pclMyEnum:MoveNext()
+      
+      WHILE bRes = True
+      	
+      	// Retrieve the current object	
+      	pclMyObject = pclMyEnum:Current	
+      	
+      	// If not in 'last node' mode
+      	IF bLastNode = False THEN
+      		
+      		// Retrieve the name
+      		sPath = pclMyObject:get_Path():tostring()
+      		
+      		// Build the node
+      		sNode = sParentNode + ExtractString(sPath, 2, ":")
+      		
+      		// Add to the treeview
+      		TreeAdd(sListName, sNode, tvDefault, tvDefault, sPath)
+      		
+      		// Retrieve the first child if necessary
+      		GetClasses(sListName, sPath, sNode + TAB, True)
+      		
+      	ELSE
+      		// 'last node' mode, 
+      		// if at least one child is found, add the NOT LOADED node
+      		TreeAdd(sListName, sParentNode + <§$0004§>)
+      		
+      		RESULT False
+      		
+      	END
+      	
+      	// Goes to next one
+      	bRes = pclMyEnum:MoveNext()
+      	
+      END
+      
+      RESULT True
+     type : 458752
+   -
+     name : GetProperties
+     internal_properties : CAAAAAgAAAD4cE0BIW+qQ8axdFLbCs8cc7ap574lxg0sHPD0H59GD/6WBt4dTrxQ9nSVEqIvMwkAEY9aZdlJTMNmomQ87iIkF2N4NRS92SWEY3XJpx9HL4D7jHDcVxgn54QfJ2yVwaQuhS6ugxYGMWHcBxgZG2gRLBqQyfeobxTJNgV9moIu57J8Pq7PnMEs2vc5j4Luty1RCy43GoZ8ItM6cLa5xNarwQKqJv6b
+     procedure_id : 1760453055371386411
+     type_code : 14
+     code : |1+
+      // Syntax:
+      //GetProperties (<sObject> [, <bSystem> is boolean])
+      //
+      // This procedure is used to add the properties relative to a class (sObject) to the table named TABLE_PROPERTY
+      // Parameters:
+      //	sObject: Name of the class whose properties must be retrieved
+      //	bSystem (boolean - default value=0): System properties
+      
+      PROCEDURE GetProperties(LOCAL sObject,LOCAL bSystem is boolean= False)
+      
+      clMyScope is ManagementScope(sObject)
+      clMyOptions is ConnectionOptions
+      pcliEnumProperty is IEnumerator dynamic // Enumerator of properties
+      pclMyProperty is PropertyData dynamic // Current Object
+      sType is string // Type of the property
+      sValue is string // Value of the property
+      sImage is string // image to add into the table
+      clMyClass is ManagementClass(sObject) // Retrieve an object on the selected class
+      
+      
+      // If the remote mode is enabled, refresh the connection options
+      IF pWMI.gsServer <> "\\" + NetMachineName() + "\" THEN
+      	
+      	// Define the connection options
+      	clMyOptions:Password = pWMI.gsPassword
+      	clMyOptions:Username = pWMI.gsUser
+      	// Refresh the search control
+      	clMyScope:set_Options(clMyOptions)	
+      	
+      END
+      
+      // The class belongs to this search control
+      clMyClass:Scope = clMyScope
+      
+      IF bSystem = False
+      	// Retrieve an enumerator
+      	pcliEnumProperty = clMyClass:get_Properties():getEnumerator()
+      ELSE
+      	pcliEnumProperty = clMyClass:get_SystemProperties():GetEnumerator()
+      END
+      
+      // Starts to enumerate
+      WHILE pcliEnumProperty:MoveNext()
+      	
+      	// Retrieve the current object
+      	pclMyProperty = pcliEnumProperty:Current
+      	
+      	// Check to find out whether it is a table
+      	IF pclMyProperty:IsArray THEN
+      		sType = <§$0007§>		
+      		
+      		sValue = <§$0008§>
+      	ELSE
+      		WHEN EXCEPTION IN 
+      			// Retrieve the value of the property
+      			sValue = pclMyProperty:get_Value()		
+      		DO
+      			sValue = <§$0009§>
+      		END
+      	END
+      	
+      	// Retrieve the type of the value
+      	sType += " " 
+      	SWITCH pclMyProperty:Type
+      	
+      		CASE CimType::Boolean
+      			sType += <§$000b§>
+      		CASE CimType::Char16
+      			sType += <§$000c§>
+      		CASE CimType::DateTime
+      			sType += <§$000d§>
+      		CASE CimType::Object
+      			sType += <§$000e§>
+      		CASE CimType::Real32
+      			sType += <§$000f§>
+      		CASE CimType::Real64
+      			sType += <§$0010§>
+      		CASE CimType::Reference
+      			sType += <§$0011§>
+      		CASE CimType::SInt16
+      			sType += <§$0012§>
+      		CASE CimType::SInt32
+      			sType += <§$0013§>
+      		CASE CimType::SInt64
+      			sType += <§$0014§>
+      		CASE CimType::UInt16
+      			sType += <§$0012§>
+      		CASE CimType::UInt32
+      			sType += <§$0013§>
+      		CASE CimType::UInt64
+      			sType += <§$0014§>
+      		CASE CimType::UInt8
+      			sType += <§$0015§>
+      		CASE CimType::String
+      			sType += <§$000c§>		
+      		OTHER CASE 
+      			sType += <§$0016§>
+      	END
+      	
+      	// If the system properties are listed
+      	IF bSystem THEN
+      		
+      		sImage = IMG_SYSTEM
+      	ELSE
+      		// Refresh the image according to the type of property
+      		IF pclMyProperty:IsLocal THEN
+      			// Local property
+      			sImage = IMG_LOCAL		
+      		ELSE
+      			// Inherited property
+      			sImage = IMG_INHERITANCE	
+      		END	
+      		
+      	END
+      	
+      	
+      	// Add the property to the table
+      	TableAddLine(TABLE_Property, sImage, pclMyProperty:Name, sType, sValue)
+      	Multitask(-1)
+      	sType = ""
+      END
+     type : 458752
+   -
+     name : IsIPAddress
+     procedure_id : 1760453055371451947
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] IsIPAddress (<sAddress> is string)
+      //
+      // Parameters:
+      //	sAddress (ANSI string): Address string to check
+      // Return value:
+      // 	boolean: True if it is an IP address, False otherwise
+      
+      PROCEDURE IsIPAddress(LOCAL sAddress is string)
+      
+      
+      IF StringCount(sAddress, ".") > 0 THEN
+      	
+      	RESULT True
+      	
+      ELSE
+      	
+      	RESULT False
+      	
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADRyWK9ogG+dcMlMpV7lXuGKtFFltimx5UBTQKREKG6VvwsKQxVApUCM1Cr/T3VTcss1w4YaUHKdbDZpQdoxSrsid0lL0v6GJE+/mkO2fPQlmiFKx8NZEk6n6+eEUFk
+  original_name : FenAvancée
+resources :
+ string_res :
+  identifier : 0x120a3f0400137408
+  internal_properties : CAAAAAgAAADUtrmBLYk7V/VwVlR4kVwlAl4SCx3xSXWWtU8yRLUOBkpI5L0EjjuaJXlSiIEdjAPDQw==
+  strings :
+   -
+     text :
+      en-GB : \\
+     index : 0
+   -
+     text :
+      en-GB : \
+     index : 1
+   -
+     text :
+      en-GB : "The access to %1 computer was refused, contact your network administrator"
+     index : 2
+   -
+     text :
+      en-GB : SELECT * FROM __namespace
+     index : 3
+   -
+     text :
+      en-GB : NOT LOADED
+     index : 4
+   -
+     text :
+      en-GB : name
+     index : 5
+   -
+     text :
+      en-GB : ":"
+     index : 6
+   -
+     text :
+      en-GB : "Array of "
+     index : 7
+   -
+     text :
+      en-GB : <ARRAY>
+     index : 8
+   -
+     text :
+      en-GB : <Empty>
+     index : 9
+   -
+     text :
+      en-GB : " "
+     index : 10
+   -
+     text :
+      en-GB : Boolean
+     index : 11
+   -
+     text :
+      en-GB : Character string
+     index : 12
+   -
+     text :
+      en-GB : Date/Time
+     index : 13
+   -
+     text :
+      en-GB : Object
+     index : 14
+   -
+     text :
+      en-GB : 4-byte real
+     index : 15
+   -
+     text :
+      en-GB : 8-byte real
+     index : 16
+   -
+     text :
+      en-GB : Reference to an object
+     index : 17
+   -
+     text :
+      en-GB : Signed 2-byte integer
+     index : 18
+   -
+     text :
+      en-GB : Signed 4-byte integer
+     index : 19
+   -
+     text :
+      en-GB : Signed 8-byte integer
+     index : 20
+   -
+     text :
+      en-GB : Signed 1-byte integer
+     index : 21
+   -
+     text :
+      en-GB : Unknown type
+     index : 22
+   -
+     text :
+      en-GB : "."
+     index : 23
+   -
+     text :
+      en-GB : Enter the name of the computer (\\MyComputer for instance)
+     index : 24
+   -
+     text :
+      en-GB : root
+     index : 25
+   -
+     text :
+      en-GB : Classes
+     index : 26
+   -
+     text :
+      en-GB : Select a class to view
+     index : 27
+   -
+     text :
+      en-GB : Unable to retrieve the objects.
+     index : 28
+   -
+     text :
+      en-GB : "INFORMATION ABOUT THE COMPUTER: %1"
+     index : 29
+   -
+     text :
+      en-GB : Enter the name of the computer (\\MyComputer for instance)
+     index : 30
+   -
+     text :
+      en-GB : root
+     index : 31
+   -
+     text :
+      en-GB : Enter the name of the computer (\\MyComputer for instance)
+     index : 32
+   -
+     text :
+      en-GB : root
+     index : 33
+   -
+     text :
+      en-GB : Enter the name of the computer (\\MyComputer for instance)
+     index : 34
+   -
+     text :
+      en-GB : root
+     index : 35
+   -
+     text :
+      en-GB : Enter the name of the computer (\\MyComputer for instance)
+     index : 36
+   -
+     text :
+      en-GB : root
+     index : 37
+   -
+     text :
+      en-GB : Enter the name of the computer (\\MyComputer for instance)
+     index : 38
+   -
+     text :
+      en-GB : root
+     index : 39
+   -
+     text :
+      en-GB : Enter the name of the computer (\\MyComputer for instance)
+     index : 40
+   -
+     text :
+      en-GB : root
+     index : 41
+   -
+     text :
+      en-GB : "INFORMATION ABOUT THE COMPUTER: %1"
+     index : 42
+   -
+     text :
+      en-GB : Enter the name of the computer (\\MyComputer for instance)
+     index : 43
+   -
+     text :
+      en-GB : root
+     index : 44
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,592 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pWMI
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1210890101da11e7
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAD+1hJxPNPD8PgF4+sOX3m7bFGuUsUQMDBDdmwx0Jy2GPDojBB2+L0KzA3Mz8Qze9y5KsEsoMU2O4TjDi7jF1CjcwJh6I0OendLqZCD6gCOdj4aF13hqbc9G1PbFeah1VZ7YS3lpivKEwM7BghxE89I8QJA5FuLW02xbe5jhM3Gy3+3bAsu0wGwIkeRF4ea/zCZPR5Ax3zq17wkTENylAa3du8kkuWcdlGrkhT1Jn3wHRWCMZuUj7keQQBmSwVRRI9OFO8x3Z4Fe2Xxk6To0d9dGn0M0/Ejdfj17aYyFydd47txE2iPHP1IApjzWtNmCDF2/xOhE8IjcoSbw8tUTVTRfIIo9+lBh0zVKZ9CVmVseZFHZeBmt7UpphjmBU0OqUqR6xic3cL+a7eQvJmh3omuPIqDBNTuoFo5+rl9JN65464/rp6OO5dHKe9s+OJyUfq3pyHDf5csVpZOWNjisupqE5NlYjQOKNII8VxP3znCTH9OHMjOd9rJc1EiuQ==
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      gsServer is string = "\\" + NetMachineName() +"\"
+      gsUser is string = ""
+      gsPassword is string = ""
+     type : 720896
+  procedures :
+   -
+     name : GetGroupInfo
+     internal_properties : CAAAAAgAAAAogPlsBUUHDbSHghxhqM1qYWxziv0dsDXgULSkP4u2CxLy5pbtKqBQ+lhxGgpTW71ktU8qhZ2NTC/CbgwUWpqwawfoNbTBRbWYZ0l5H0u/i1wfXLbGuaLBWXZhqYZX40r433CMrQCgy9MOOdJbtZJ3DlRaD8myUXZzOLd3FAS4baxWCLzJ1vvWjCGzCYToOVkdLIJzymI06u/GrNa54JaiJJG+Vs7L
+     procedure_id : 1301691715718011376
+     type_code : 15
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] GetGroupInfo ()
+      //
+      // This procedure is used to retrieve the information about the groups of users
+      // Parameters:
+      //	None
+      // Return value:
+      // 	string: Group name + TAB + Description
+      
+      PROCEDURE GetGroupInfo()
+      
+      sReturnString is string
+      sListInfo is string
+      sAnInformation is string
+      
+      
+      // Retrieve the entire information about the groups
+      sListInfo = GetContent("win32_Group", gsServer + "root\CIMV2")
+      
+      FOR EACH string sAnInformation of sListInfo SEPARATED BY CR+CR
+      	
+      	// Retrieve the information
+      	sReturnString += FindInformation(sAnInformation, "Name") + TAB + FindInformation(sAnInformation, "Description") +CR
+      	
+      END
+      
+      
+      RESULT sReturnString
+     type : 458752
+   -
+     name : GetDriveInfo
+     internal_properties : CAAAAAgAAACFFUwKZUE/T/lh1xrvUYt3CMaNUyQxLsPFjIaYw6RkzVd4S6DiICKRvyc6ATzJutOyux1dpVjAMrJimpcUW2Qf5UHKJcWu2lwFIGXNGqWJQ7WzSNYCLImWE0HAqI21ynSZs9Aw5KDFYBpM6v8Un7p//+T62w7ynJ0ATFJm67igHeRkulO5eNmvbwQyiI7Zxa2FewdDbw6LtyK9B2y5EcR8Pfx6gw+Wsz5KFZ33L8LsoAmkkRA8gi7Zmh/9pKl23XSSkg==
+     procedure_id : 1301691715718077131
+     type_code : 15
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] GetDriveInfo ()
+      //
+      // This procedure is used to retrieve the information about the drives (networks, hard disks, removable disks, and so on)
+      // Parameters:
+      //	None
+      // Return value:
+      // 	string: Drive letter + TAB + Description +TAB + Volume name + TAB + File system + TAB + Total space + Available space + TAB + Provider Name
+      
+      PROCEDURE GetDriveInfo()
+      
+      sReturnString is string
+      sListInfo is string
+      sAnInformation is string
+      
+      
+      // Get the information on the drives
+      sListInfo = GetContent("win32_LogicalDisk", gsServer + "root\CIMV2")
+      
+      FOR EACH string sAnInformation of sListInfo SEPARATED BY CR+CR
+      	
+      	// Retrieve the information
+      	sReturnString += [CR] + FindInformation(sAnInformation, "Caption")
+      	sReturnString += [TAB] + FindInformation(sAnInformation, "Description")
+      	sReturnString += [TAB] + FindInformation(sAnInformation, "VolumeName")
+      	sReturnString += [TAB] + FindInformation(sAnInformation, "FileSystem")
+      	sReturnString += [TAB] + FindInformation(sAnInformation, "Size")
+      	sReturnString += [TAB] + FindInformation(sAnInformation, "FreeSpace")
+      	sReturnString += [TAB] + FindInformation(sAnInformation, "ProviderName")
+      	
+      END
+      
+      
+      RESULT sReturnString
+     type : 458752
+   -
+     name : GetInfoOS
+     internal_properties : CAAAAAgAAABcaZBcAspfMnYv/aY/k19w11BtYzsDO8EAFo3xybaAovQMTEgMZlYdVJ3UAbp5A3X/MECifKK59HbX7P72JBp2XYQ1oaoERvIrwAI1mcpXvdS2u1YpXRgT0g372Gv5C2bmiftW2BjA1xiB0aGmETanIuRDH/I6EcogE4+6mT6at4AWJb6gfLt6EcyzSEH+jxosR4bGSo8vWJjZlGi7z5FNPfjRpg==
+     procedure_id : 1301691715718142792
+     type_code : 15
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] GetInfoOS ()
+      //
+      // This procedure enables you to retrieve the information about the operating system
+      // Parameters:
+      //	None
+      // Return value:
+      // 	string: Name of Operating System +TAB + Service Pack + TAB + Official Version + TAB + Serial Number + TAB + Setup Path + TAB 
+      // 			+ Setup DateTime + TAB + Reboot DateTime + TAB + Current User + TAB
+      
+      PROCEDURE GetInfoOS()
+      
+      sReturnString is string
+      sListInfo is string
+      sAnInformation is string
+      
+      
+      // Get the information on the operating system
+      sListInfo = GetContent("win32_OperatingSystem", gsServer + "root\CIMV2")
+      
+      // An error occurred if the list of information is empty
+      IF sListInfo ~= "" THEN RESULT ""
+      
+      FOR EACH string sAnInformation of sListInfo SEPARATED BY CR+CR
+      	
+      	// Retrieve the information
+      	sReturnString += [CR] + FindInformation(sListInfo, "Caption")
+      	sReturnString += TAB + FindInformation(sListInfo, "CSDVersion")
+      	sReturnString += TAB + FindInformation(sListInfo, "Version")
+      	sReturnString += TAB + FindInformation(sListInfo, "SerialNumber")
+      	sReturnString += TAB + FindInformation(sListInfo, "WindowsDirectory")
+      	sReturnString += TAB + FindInformation(sListInfo, "InstallDate")[[ TO 12]]
+      	sReturnString += TAB + FindInformation(sListInfo, "LastBootUpTime")[[ TO 12]]
+      	sReturnString += TAB + FindInformation(sListInfo, "RegisteredUser")
+      	
+      END
+      
+      
+      RESULT sReturnString
+     type : 458752
+   -
+     name : GetNetworkInfo
+     internal_properties : CAAAAAgAAADYUEm8fN2ZMygLSOrThJ/Y9Sjf3qthEpds7GLG1dPkJQ6Gnp7f8kJ64oDTbCgTgffAST/CFyVPdm/iJH56asDGP7tMMZLFS0uMGyuDbYvx/cxH9FMzdkPQUj9a4HOcJg+tBBP5AiXJ8jSvuv3sJgXky4mdBAI7/hXMATAutUXDshHDYzFCd3hVCWZo4EVBYEJy+dWAf18VzYwjqTG+zYXTZWGOBh67
+     procedure_id : 1301691715718208468
+     type_code : 15
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] GetNetworkInfo ()
+      //
+      // This procedure enables you to retrieve the information about the network devices and their configuration
+      // Parameters:
+      //	None
+      // Return value:
+      // 	string: Description + TAB + MAC Address+ TAB + DNS Name
+      
+      PROCEDURE GetNetworkInfo()
+      
+      sReturnString is string
+      sListInfo is string
+      sAnInformation is string
+      
+      
+      // Get the information on the network
+      sListInfo = GetContent("win32_NetworkAdapterConfiguration", gsServer + "root\CIMV2")
+      
+      FOR EACH string sAnInformation of sListInfo SEPARATED BY CR+CR
+      	
+      	// Retrieve the information
+      	sReturnString += [CR] + FindInformation(sAnInformation, "Caption")
+      	sReturnString += [TAB] + FindInformation(sAnInformation, "Description")
+      	sReturnString += [TAB] + FindInformation(sAnInformation, "MACAddress")
+      	sReturnString += [TAB] + FindInformation(sAnInformation, "DNSHostName")
+      	
+      END
+      
+      
+      RESULT sReturnString
+     type : 458752
+   -
+     name : GetUserInfo
+     internal_properties : CAAAAAgAAAD4cKmc3L1560gbKLrD5K/4tai/TisBwud8jJJmdaOEVX7W7l6PYuJa4nDTnNjz8VegKT+yl4Wf5h/iNH76uoAWT2sckSJVa+ssi8sT3UshneynlJurrjvYutcSmIt0LldlTOtBuv3hmpyH0rUkHg2sIxEV7BrTdh3UGQhGLf2rmskLu1kar/BdMZ7gOB156MrqYU0oF7fNdRT7Ien2hWUzxcFuJv6b
+     procedure_id : 1301691715718274160
+     type_code : 15
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] GetUserInfo ()
+      //
+      // This procedure enables you to retrieve the information about the users
+      // Parameters:
+      //	None
+      // Return value:
+      // 	string: User information
+      
+      PROCEDURE GetUserInfo()
+      
+      sReturnString is string
+      sListInfo is string
+      sAnInformation is string
+      
+      
+      // Get the information about the users
+      sListInfo = GetContent("win32_UserAccount", gsServer + "root\CIMV2")
+      
+      FOR EACH string sAnInformation of sListInfo SEPARATED BY CR+CR
+      	
+      	sReturnString += [CR] + FindInformation(sAnInformation, "Name")
+      	sReturnString += [TAB] + FindInformation(sAnInformation, "Description")
+      	
+      END
+      
+      
+      RESULT sReturnString
+     type : 458752
+   -
+     name : GetShares
+     internal_properties : CAAAAAgAAABqejYeqzrmxnCgd9l00lv8VO/Q1BCEgog/MD+TBVTrB2fZ4WVAb28UAsGGzITcQzjeMd7yv9O0XXbPXsjyTiSeeC1uMubAcMo5+/N0FoN5iTCyN6Z3C0RikkmRRHATqK5Mwt5lXIwPV6P56OpueFiLxMvEQETYsGANUbwDvbtEtwt7ZOZ1YGPelhtKrYQGcSt6fhHnIJFOq/YPMi64xz8ngSAEf5K/aI5SLyzHyOxlBT24+/mwmryw56Sr3xAIkXrt
+     procedure_id : 1301691715718339884
+     type_code : 15
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] GetShares ()
+      //
+      // This procedure enables you to retrieve the information about the shares
+      // Parameters:
+      //	None
+      // Return value:
+      // 	string: Share name + TAB + Name + TAB + Shared path
+      
+      PROCEDURE GetShares()
+      
+      sReturnString is string
+      sListInfo is string
+      sAnInformation is string
+      
+      
+      // Get the information on the shares
+      sListInfo = GetContent("win32_share",gsServer + "root\CIMV2")
+      
+      FOR EACH string sAnInformation of sListInfo SEPARATED BY CR+CR
+      	
+      	// Retrieve the information
+      	sReturnString += [CR] + FindInformation(sAnInformation, "name")
+      	sReturnString += [TAB] + FindInformation(sAnInformation, "caption")
+      	sReturnString += [TAB] + FindInformation(sAnInformation, "path")
+      	
+      END
+      
+      
+      RESULT sReturnString
+     type : 458752
+   -
+     name : GetContent
+     internal_properties : CAAAAAgAAACsxf91boGP/B6u9CqRSz8v5bkam0HSOCIkCvjsyNytLlUP3ARGgmnuH8gJErXIJVQiAhdzMkAoe3wxWvMHAPmM6PeWMZECJkSTRc7t6mNufyG85fX5b9zjqKbAuAG1LG244lPAtjIxI+WYB9SZ+Lq2XPu5RgOmdDk8CinQpaBbw17zmPJtLCl/ZSz/plFmp6wWXx29jhB/xHpHMnrHK0np8FLewT9Hv2Z07FtRDpdLmnOiSpSqRb0p2/D3XnASkbdx/sDpNGpZbPNS0kdaLTbEXTRmHyyQxDhNbwNmB2m3axR3wHjmZ7N+dA==
+     procedure_id : 1301718099711858965
+     type_code : 15
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] GetContent (<sClass>, <sPath> [, <sCondition>])
+      //
+      // Parameters:
+      //	sClass: Name of the class whose content must be retrieved
+      //	sPath: namespace of the class (caution: for a remote computer, must be preceded by "\\" + ComputerName)
+      //	sCondition (default value=""): Condition to apply to the query (ex: Property1 = 1)
+      // Return value:
+      // 	Undefined type: 
+      // Property1 + TAB + Value + CR + Property2 + TAB + Value2 + CR
+      
+      // FindInformation enables you to retrieve the value of a specific property
+      
+      PROCEDURE GetContent(sClass, sPath, sCondition = "")
+      
+      
+      sName is string // Name of the property
+      sReturnString is string // The return value
+      pclIEnumValue is IEnumerator dynamic // An instance of the class
+      pclMyObject is  ManagementObject dynamic // Instance of the current class
+      pclMyProperty is PropertyData dynamic // Current property
+      pclIEnumProperties is IEnumerator dynamic // Enumerator on properties
+      sQuery is string = "SELECT * FROM " + sClass // Query to send to WMI
+      bResObject is boolean // Result of instance browse
+      bResProperties is boolean // Result of property browse
+      clMyPath is ManagementPath(sPath) // Search Path
+      sRes is string // Value of the property
+      clMyOptions is ConnectionOptions() // Connection Options
+      
+      clMyScope is ManagementScope(clMyPath, clMyOptions) // Define the search control
+      
+      // Build the query with condition
+      IF NOT sCondition ~= "" THEN
+      	sQuery += StringBuild(" where %1", sCondition)
+      END
+      
+      // If not in local mode
+      IF gsServer <> "\\" + CompleteDir(NetMachineName()) THEN
+      	
+      	// Refresh the connection settings
+      	clMyOptions:Username = gsUser
+      	clMyOptions:Password = gsPassword
+      	
+      	clMyScope:set_Options(clMyOptions)	
+      	// Attempt to connect
+      	WHEN EXCEPTION IN
+      		clMyScope:connect()
+      	DO
+      		// Access denied
+      		Error(StringBuild(<§@121088ff01d80ae20019§>, gsServer), ExceptionInfo())
+      		RESULT ""	
+      	END
+      	
+      END
+      
+      // Declare the query
+      clMyQuery is ObjectQuery(sQuery)
+      // Run the query
+      clMySearch is ManagementObjectSearcher(clMyScope, clMyQuery)
+      
+      // Retrieve the enumerator on the values
+      pclIEnumValue = clMySearch:Get():GetEnumerator()
+      
+      WHEN EXCEPTION IN
+      	bResObject = pclIEnumValue:MoveNext()
+      DO
+      	
+      	// If the condition is not empty
+      	IF NOT sCondition ~= "" THEN
+      		// Attribute not found
+      		Info(StringBuild(<§@121088ff01d80ae2001a§>, sCondition), <§@121088ff01d80ae2001b§>)
+      		
+      		// Retrieve the content of the file without the condition
+      		RESULT GetContent(sClass, sPath)
+      		
+      	ELSE
+      		// Display a message		
+      		Info(<§@121088ff01d80ae2001c§>)
+      		RESULT ""
+      		
+      	END
+      	
+      END
+      
+      // Browse the enumerator
+      WHILE bResObject = True
+      	
+      	// Retrieve the current object
+      	pclMyObject = pclIEnumValue:get_Current()
+      	
+      	// Retrieve the enumerator on the properties
+      	pclIEnumProperties = pclMyObject:get_Properties():GetEnumerator()
+      	
+      	bResProperties = pclIEnumProperties:MoveNext()
+      	
+      	WHILE bResProperties = True
+      		
+      		pclMyProperty	= pclIEnumProperties:get_Current()
+      		sName = pclMyProperty:name
+      		
+      		WHEN EXCEPTION IN
+      			sRes = pclMyObject:GetPropertyValue(sName)
+      		DO
+      			sRes = <§@121088ff01d80ae2001d§>
+      		END	
+      		
+      		// Refresh the return string
+      		sReturnString += [CR] + sName + [TAB] + sRes
+      		
+      		bResProperties = pclIEnumProperties:MoveNext()
+      		
+      	END
+      	
+      	// -------------------------------------
+      	// Retrieve the system properties
+      	// -------------------------------------
+      	
+      	// Retrieve the enumerator on the properties
+      	pclIEnumProperties = pclMyObject:get_SystemProperties():GetEnumerator()
+      	
+      	bResProperties = pclIEnumProperties:MoveNext()
+      	
+      	// Browse the system properties
+      	WHILE bResProperties = True
+      		
+      		// Retrieve the current property
+      		pclMyProperty = pclIEnumProperties:get_Current()
+      		
+      		// Retrieve the name
+      		sName = pclMyProperty:name
+      		
+      		WHEN EXCEPTION IN
+      			sRes = pclMyObject:GetPropertyValue(sName)
+      		DO
+      			sRes = <§@121088ff01d80ae2001d§>
+      		END	
+      		
+      		// Refresh the return string
+      		sReturnString += [CR] + sName + [TAB] + sRes
+      		
+      		// Next property
+      		bResProperties = pclIEnumProperties:MoveNext()
+      		
+      	END
+      	
+      	// Refresh the return string
+      	sReturnString += CR+CR
+      	WHEN EXCEPTION IN 
+      		// Goes to the next instance
+      		bResObject = pclIEnumValue:MoveNext()
+      	DO
+      		
+      		// Exit from the loop
+      		BREAK
+      		
+      	END
+      END
+      
+      RESULT sReturnString
+     type : 458752
+   -
+     name : FindInformation
+     internal_properties : CAAAAAgAAAAmUcIUBjpseZQka2m2CHOqRTIesuYlgQZusNBJOY7ix7Cte8o5iMS53obSUHbUIZo+DgYbHqQxg74a8Wbs+gy9dQZwJJAsm64kTK7dpXL5YheEZDIWOwCfbQLdbcgVjSjUA5QIPZ5inZGMh7h5sZzFSgge6yUuyW5hXj0J7gZGN6N9Jfd0V8ajWXbYYEVBpAak0GsCHbY=
+     procedure_id : 1301718104007088811
+     type_code : 15
+     code : |1-
+      // Syntax:
+      //[ <Result> = ] FindInformation (<sInfoList> is string, <sInfo> is string)
+      //
+      // This procedure is used to retrieve the value of a property in a class instance retrieved by GetContent
+      
+      // Parameters:
+      //	sInfoList (ANSI string): String in which the property must be sought
+      //	sInfo (ANSI string): Name of the property to find
+      // Return value:
+      // 	ANSI string: Value of the requested property
+      
+      PROCEDURE FindInformation(LOCAL sListInfo is string, LOCAL sInfo is string)
+      
+      nInfoPosition is int
+      sReturnString is string
+      
+      
+      // Search for the requested information
+      nInfoPosition = Position(sListInfo, sInfo, 0, IgnoreCase+WholeWord)
+      
+      IF nInfoPosition > 0 THEN
+      	
+      	// It was found, retrieve the text located between the position of the information and a CR character
+      	sReturnString = sListInfo[[nInfoPosition TO Position(sListInfo, CR, nInfoPosition)-1]]		
+      	// Retrieve the value only
+      	sReturnString = ExtractString(sReturnString, 2)
+      	
+      ELSE
+      	sReturnString = ""
+      END
+      
+      
+      RESULT sReturnString
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x121088ff01d80ae2
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : \\
+     index : 0
+   -
+     text :
+      en-GB : win32_Group
+     index : 1
+   -
+     text :
+      en-GB : root\CIMV2
+     index : 2
+   -
+     text :
+      en-GB : Name
+     index : 3
+   -
+     text :
+      en-GB : win32_LogicalDisk
+     index : 4
+   -
+     text :
+      en-GB : Caption
+     index : 5
+   -
+     text :
+      en-GB : Description
+     index : 6
+   -
+     text :
+      en-GB : FileSystem
+     index : 7
+   -
+     text :
+      en-GB : Size
+     index : 8
+   -
+     text :
+      en-GB : ProviderName
+     index : 9
+   -
+     text :
+      en-GB : win32_OperatingSystem
+     index : 10
+   -
+     text :
+      en-GB : CSDVersion
+     index : 11
+   -
+     text :
+      en-GB : SerialNumber
+     index : 12
+   -
+     text :
+      en-GB : WindowsDirectory
+     index : 13
+   -
+     text :
+      en-GB : InstallDate
+     index : 14
+   -
+     text :
+      en-GB : LastBootTime
+     index : 15
+   -
+     text :
+      en-GB : RegisteredUser
+     index : 16
+   -
+     text :
+      en-GB : win32_NetworkAdapterConfiguration
+     index : 17
+   -
+     text :
+      en-GB : MACAddress
+     index : 18
+   -
+     text :
+      en-GB : win32_UserAccount
+     index : 19
+   -
+     text :
+      en-GB : win32_share
+     index : 20
+   -
+     text :
+      en-GB : name
+     index : 21
+   -
+     text :
+      en-GB : caption
+     index : 22
+   -
+     text :
+      en-GB : "SELECT * FROM "
+     index : 23
+   -
+     text :
+      en-GB : " where %1"
+     index : 24
+   -
+     text :
+      en-GB : "The access to %1 computer was refused, contact your network administrator"
+     index : 25
+   -
+     text :
+      en-GB : The <%1> condition refers to a property not valid on this operating system
+     index : 26
+   -
+     text :
+      en-GB : This condition will be ignored
+     index : 27
+   -
+     text :
+      en-GB : No class instance is defined
+     index : 28
+   -
+     text :
+      en-GB : <Empty>
+     index : 29
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
